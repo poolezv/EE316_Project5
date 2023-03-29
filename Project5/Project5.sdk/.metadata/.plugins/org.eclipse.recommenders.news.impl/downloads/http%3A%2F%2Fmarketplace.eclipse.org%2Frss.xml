@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://marketplace.eclipse.org/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:og="http://ogp.me/ns#" xmlns:article="http://ogp.me/ns/article#" xmlns:book="http://ogp.me/ns/book#" xmlns:profile="http://ogp.me/ns/profile#" xmlns:video="http://ogp.me/ns/video#" xmlns:product="http://ogp.me/ns/product#" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <channel>
+    <title>Eclipse Plugins, Bundles and Products - Eclipse Marketplace</title>
+    <link>https://marketplace.eclipse.org/</link>
+    <description></description>
+    <language>en</language>
+     <atom:link href="https://marketplace.eclipse.org/rss.xml" rel="self" type="application/rss+xml" />
+      <item>
+    <title>SonarLint</title>
+    <link>https://marketplace.eclipse.org/content/sonarlint</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;https://marketplace.eclipse.org/sites/default/files/sonarlint-110x80_0.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/jhenrym6y/listings&quot; title=&quot;Julien HENRY&quot;&gt;Julien HENRY&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2015-10-15 14:54&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2023-03-28 03:59&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22SonarSource%20S.A%22&quot;&gt;SonarSource S.A&lt;/a&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;SonarLint is an IDE extension that helps you detect and fix quality issues as you write code. Like a spell checker, SonarLint squiggles flaws so they can be fixed before committing code. You can get it directly from the Eclipse Marketplace, and it will then detect new bugs and quality issues as you code (Java, JavaScript, PHP, Python and HTML).&lt;/p&gt;
+&lt;p&gt;If your project is analyzed on SonarQube or on SonarCloud, SonarLint can connect to the server to retrieve the appropriate quality profiles and settings for that project, as well as some additional languages support.&lt;/p&gt;
+&lt;p&gt;Discover more at &lt;a href=&quot;https://www.sonarsource.com/products/sonarlint/features/eclipse/&quot; rel=&quot;nofollow&quot;&gt;https://www.sonarsource.com/products/sonarlint/features/eclipse/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;SonarLint requires Eclipse to use Java 11+ as runtime (but you can analyze Java projects targeting older Java versions). For any question or feedback please join the &lt;a href=&quot;https://community.sonarsource.com/c/help/sl&quot; rel=&quot;nofollow&quot;&gt;SonarSource Community Forum&lt;/a&gt; .&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Thu, 15 Oct 2015 18:54:47 +0000</pubDate>
+ <dc:creator>jhenrym6y</dc:creator>
+ <guid isPermaLink="false">2568658 at https://marketplace.eclipse.org</guid>
+ <comments>https://marketplace.eclipse.org/content/sonarlint#comments</comments>
+  </item>
+  <item>
+    <title>ABAP Tags</title>
+    <link>https://marketplace.eclipse.org/content/abap-tags</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;https://marketplace.eclipse.org/sites/default/files/Devepos_Logo2.png&quot; width=&quot;76&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/lstockbauermuhr/listings&quot; title=&quot;Ludwig Stockbauer-Muhr&quot;&gt;Ludwig Stockbauer-Muhr&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Sun, 2020-07-12 10:29&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2023-03-27 17:01&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22DevEpos%22&quot;&gt;DevEpos&lt;/a&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;em&gt;ABAP Tags&lt;/em&gt; is an Open Source Plugin which provides tools for adding arbitrary tags to ADT objects.&lt;/p&gt;
+&lt;p&gt;The main features of this plugin are:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;View to manage ABAP Tags&lt;/li&gt;
+&lt;li&gt;Wizard to assign Tags to ADT objects&lt;/li&gt;
+&lt;li&gt;View to handle ABAP Tags for a single ADT object&lt;/li&gt;
+&lt;li&gt;Search View, to search for tagged objects&lt;/li&gt;
+&lt;li&gt;Tree in Project Explorer to browse all Tagged Objects easily&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Prerequisites before installing the plugin&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;The &lt;em&gt;&lt;a href=&quot;https://tools.hana.ondemand.com/#abap&quot; rel=&quot;nofollow&quot;&gt;ABAP Development Tools&lt;/a&gt;&lt;/em&gt; Plugin is installed&lt;/li&gt;
+&lt;li&gt;The &lt;a href=&quot;https://github.com/stockbal/abap-tags-backend&quot; rel=&quot;nofollow&quot;&gt;ADT Backend&lt;/a&gt; for &lt;em&gt;ABAP Tags&lt;/em&gt; is installed&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;More details can be found at &lt;a href=&quot;https://github.com/stockbal/abap-tags-ui&quot; rel=&quot;nofollow&quot;&gt;https://github.com/stockbal/abap-tags-ui&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Sun, 12 Jul 2020 14:29:11 +0000</pubDate>
+ <dc:creator>lstockbauermuhr</dc:creator>
+ <guid isPermaLink="false">5172007 at https://marketplace.eclipse.org</guid>
+ <comments>https://marketplace.eclipse.org/content/abap-tags#comments</comments>
+  </item>
+  <item>
+    <title>ABAP Code Search</title>
+    <link>https://marketplace.eclipse.org/content/abap-code-search</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;https://marketplace.eclipse.org/sites/default/files/Devepos_Logo.png&quot; width=&quot;76&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/lstockbauermuhr/listings&quot; title=&quot;Ludwig Stockbauer-Muhr&quot;&gt;Ludwig Stockbauer-Muhr&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Sat, 2022-03-05 16:30&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2023-03-27 16:57&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22DevEpos%22&quot;&gt;DevEpos&lt;/a&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;The ABAP Code Search is a tool which offers the possibility to search in ABAP source code for a given string. The most important features provided by the ABAP Code Search are&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;works in R/3 environments as well as for S/4&lt;/li&gt;
+&lt;li&gt;allows a detailed scope definition with filtering by object type, application component, etc...&lt;/li&gt;
+&lt;li&gt;supports search patterns with regular expressions and multiline search&lt;/li&gt;
+&lt;li&gt;provides Special Search Modes like Sequential Matching to make searching for code even simpler.&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;It is integrated in the eclipse Search dialog, which can be called via shortcut Ctrl + H&lt;/p&gt;
+&lt;p&gt;Currently the following source code types are supported&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Classes&lt;/li&gt;
+&lt;li&gt;Interfaces&lt;/li&gt;
+&lt;li&gt;Programs / Includes&lt;/li&gt;
+&lt;li&gt;Function Groups&lt;/li&gt;
+&lt;li&gt;Type Groups&lt;/li&gt;
+&lt;li&gt;Data Definitions&lt;/li&gt;
+&lt;li&gt;Access Controls&lt;/li&gt;
+&lt;li&gt;Metadata Extensions&lt;/li&gt;
+&lt;li&gt;Simple Transformations&lt;/li&gt;
+&lt;li&gt;Behavior Definitions&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;Prerequisites before installing the plugin&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;The ABAP Development Tools Plugin is installed &lt;a href=&quot;https://tools.hana.ondemand.com/&quot; rel=&quot;nofollow&quot;&gt;ADT Plugin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;The ADT Backend for the ABAP Code Search is installed  &lt;a href=&quot;https://github.com/stockbal/abap-code-search-tools&quot; rel=&quot;nofollow&quot;&gt;abap-code-search-tools&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;More details can be found at &lt;a href=&quot;https://github.com/stockbal/abap-code-search-ui&quot; rel=&quot;nofollow&quot;&gt;https://github.com/stockbal/abap-code-search-ui&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Sat, 05 Mar 2022 21:30:05 +0000</pubDate>
+ <dc:creator>lstockbauermuhr</dc:creator>
+ <guid isPermaLink="false">5507008 at https://marketplace.eclipse.org</guid>
+ <comments>https://marketplace.eclipse.org/content/abap-code-search#comments</comments>
+  </item>
+  <item>
+    <title>ABAP Search and Analysis Tools</title>
+    <link>https://marketplace.eclipse.org/content/abap-search-and-analysis-tools</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;https://marketplace.eclipse.org/sites/default/files/Devepos_Logo2_0.png&quot; width=&quot;76&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/lstockbauermuhr/listings&quot; title=&quot;Ludwig Stockbauer-Muhr&quot;&gt;Ludwig Stockbauer-Muhr&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2019-11-11 05:04&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2023-03-27 16:57&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22DevEpos%22&quot;&gt;DevEpos&lt;/a&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;em&gt;ABAP Search and Analysis Tools&lt;/em&gt; is an Open Source plugin which provides tools for searching and analyzing ABAP objects.&lt;br /&gt;
+The main purpose of the plugin is to provide advanced search and analysis tools during ABAP Development in eclipse.&lt;/p&gt;
+&lt;p&gt;The main features of this plugin are:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Extended ABAP Object search integrated into eclipse &lt;em&gt;Search&lt;/em&gt; Dialog&lt;br /&gt;
+	It currently supports the following object types
+&lt;ul&gt;&lt;li&gt;CDS View&lt;/li&gt;
+&lt;li&gt;Database Table/View &lt;/li&gt;
+&lt;li&gt;Class / Interface&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;View for analyzing CDS View&lt;br /&gt;
+	The following analyses are possible at the moment
+&lt;ul&gt;&lt;li&gt;Top-Down Analysis for CDS Views&lt;/li&gt;
+&lt;li&gt;Used-Entities analysis of a CDS View&lt;/li&gt;
+&lt;li&gt;Where-Used in CDS View for a CDS View/Database table/Database&lt;br /&gt;
+		view&lt;/li&gt;
+&lt;li&gt;Field Analysis for a CDS View/Database table/Database view&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Prerequisites before installing the plugin&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;The &lt;em&gt;ABAP Development Tools&lt;/em&gt; Plugin is installed &lt;a href=&quot;https://tools.hana.ondemand.com/&quot; rel=&quot;nofollow&quot;&gt;ADT Plugin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;The ADT Backend for the &lt;em&gt;ABAP Search and Analysis Tools&lt;/em&gt; is installed &lt;a href=&quot;https://github.com/stockbal/abap-search-tools&quot; rel=&quot;nofollow&quot;&gt;abap-search-tools&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;More details can be found at &lt;a href=&quot;https://github.com/stockbal/abap-search-tools-ui&quot; rel=&quot;nofollow&quot;&gt;https://github.com/stockbal/abap-search-tools-ui&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Mon, 11 Nov 2019 10:04:51 +0000</pubDate>
+ <dc:creator>lstockbauermuhr</dc:creator>
+ <guid isPermaLink="false">4876278 at https://marketplace.eclipse.org</guid>
+ <comments>https://marketplace.eclipse.org/content/abap-search-and-analysis-tools#comments</comments>
+  </item>
+  <item>
+    <title>Eclipse BIRT Latest</title>
+    <link>https://marketplace.eclipse.org/content/eclipse-birt-latest</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;https://marketplace.eclipse.org/sites/default/files/BIRT-Logo_2.png&quot; width=&quot;110&quot; height=&quot;28&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/wjongman/listings&quot; title=&quot;Wim Jongman&quot;&gt;Wim Jongman&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Sun, 2023-03-26 12:34&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2023-03-27 11:17&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Eclipse%20Foundation%22&quot;&gt;Eclipse Foundation&lt;/a&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;strong&gt;BIRT: Business Intelligence Reporting Tool&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;With BIRT, you can create data visualizations, dashboards, and reports&lt;br /&gt;
+that can be embedded into web applications and rich clients. Make information out of your data!&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Sun, 26 Mar 2023 16:34:31 +0000</pubDate>
+ <dc:creator>wjongman</dc:creator>
+ <guid isPermaLink="false">5586359 at https://marketplace.eclipse.org</guid>
+ <comments>https://marketplace.eclipse.org/content/eclipse-birt-latest#comments</comments>
+  </item>
+  <item>
+    <title>Bash Editor</title>
+    <link>https://marketplace.eclipse.org/content/bash-editor</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;https://marketplace.eclipse.org/sites/default/files/bash-editor-logo.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/atregnaghi/listings&quot; title=&quot;Albert Tregnaghi&quot;&gt;Albert Tregnaghi&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2017-07-10 06:27&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2023-03-27 10:44&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Albert%20Tregnaghi%22&quot;&gt;Albert Tregnaghi&lt;/a&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;This plugin is a bash script editor&lt;/p&gt;
+&lt;p&gt;Features:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Integrated bash debugger&lt;/li&gt;
+&lt;li&gt;Run bash scripts from IDE by configurable parameters, environment variables etc.&lt;/li&gt;
+&lt;li&gt;Adds a configurable &quot;Open path in terminal&quot; action in project and package explorer&lt;/li&gt;
+&lt;li&gt;Marks variable occurrences&lt;/li&gt;
+&lt;li&gt;Templates (some defaults + customizable)&lt;/li&gt;
+&lt;li&gt;Tasks (some defaults + customizable)&lt;/li&gt;
+&lt;li&gt;Syntax highlighting&lt;/li&gt;
+&lt;li&gt;Outline
+&lt;ul&gt;&lt;li&gt;Can be sorted alphabetical&lt;/li&gt;
+&lt;li&gt;Can open call hierarchy for a function (context menu)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Quick-Outline (CTRL + o )&lt;/li&gt;
+&lt;li&gt;Open referenced functions by hyperlink (script, project or even workspace scope possible)&lt;/li&gt;
+&lt;li&gt;Bash Call Hierarchy&lt;/li&gt;
+&lt;li&gt;Mark occurrences in editor by double click to
+&lt;ul&gt;&lt;li&gt;Variables&lt;/li&gt;
+&lt;li&gt;Functions&lt;/li&gt;
+&lt;li&gt;Feature can be toggled at toolbar (&quot;Toggle Mark Occurrences (ALT+SHIFT+O)&quot;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Validation&lt;/li&gt;
+&lt;li&gt;Simple code completion (keywords + existing words)&lt;/li&gt;
+&lt;li&gt;Colors can be customized. Also additional defaults for dark theme exists.&lt;/li&gt;
+&lt;li&gt;Bracket switching + highlighting&lt;/li&gt;
+&lt;li&gt;Block commenting (CTRL+7)&lt;/li&gt;
+&lt;li&gt;Auto bracket closing for []&lt;/li&gt;
+&lt;li&gt;Small&lt;/li&gt;
+&lt;li&gt;Tooltips for keywords (offline description + link to online information)&lt;/li&gt;
+&lt;li&gt;Works on Linux, Windows and Mac out of the box.&lt;/li&gt;
+&lt;li&gt;Save Actions
+&lt;ul&gt;&lt;li&gt;External Tool can be used for auto format on save, default is set to beautysh&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;Additional links&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/de-jcup/eclipse-bash-editor/issues&quot; rel=&quot;nofollow&quot;&gt;Issue Tracker&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/playlist?list=PLaBYAz_I_8tF7sZVIcUv8zOVe2RMiWn-L&quot; rel=&quot;nofollow&quot;&gt;YouTube Videos&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/de-jcup/eclipse-bash-editor/releases&quot; rel=&quot;nofollow&quot;&gt;Release history&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/de-jcup/eclipse-bash-editor/wiki&quot; rel=&quot;nofollow&quot;&gt;Wiki&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Mon, 10 Jul 2017 10:27:25 +0000</pubDate>
+ <dc:creator>atregnaghi</dc:creator>
+ <guid isPermaLink="false">3536358 at https://marketplace.eclipse.org</guid>
+ <comments>https://marketplace.eclipse.org/content/bash-editor#comments</comments>
+  </item>
+  <item>
+    <title>UMLet - UML Tool for Fast UML Diagrams</title>
+    <link>https://marketplace.eclipse.org/content/umlet-uml-tool-fast-uml-diagrams</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;https://marketplace.eclipse.org/sites/default/files/UMLet_logo_for_EclipseMarket__NEW.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/mmisingname7y2/listings&quot; title=&quot;UMLet Team&quot;&gt;UMLet Team&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Sat, 2005-11-05 23:50&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2023-03-27 09:07&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22The%20UMLet%20Team%22&quot;&gt;The UMLet Team&lt;/a&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;The free UML tool UMLet lets you draw UML diagrams with a light-weight, pop-up-free user interface. It lets you draw diagram sketches fast; export diagrams to pdf, eps, jpg, gif, svg, bmp, png, and system clipboard; share diagrams using Eclipse 3+; and create your own custom graphical elements.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Sun, 06 Nov 2005 04:50:20 +0000</pubDate>
+ <dc:creator>mmisingname7y2</dc:creator>
+ <guid isPermaLink="false">171 at https://marketplace.eclipse.org</guid>
+ <comments>https://marketplace.eclipse.org/content/umlet-uml-tool-fast-uml-diagrams#comments</comments>
+  </item>
+  <item>
+    <title>jSparrow - Java Refactoring and Java Code Analyzer</title>
+    <link>https://marketplace.eclipse.org/content/jsparrow-java-refactoring-and-java-code-analyzer</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;https://marketplace.eclipse.org/sites/default/files/jsparrow-icon-alternative-midlarge.png&quot; width=&quot;71&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/mprehofer/listings&quot; title=&quot;Michaela Prehofer&quot;&gt;Michaela Prehofer&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2017-06-20 11:34&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2023-03-27 06:56&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Splendit%20IT-Consulting%20GmbH%2C%20Vienna%22&quot;&gt;Splendit IT-Consulting GmbH, Vienna&lt;/a&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;h2&gt;jSparrow plug-in developed for Java refactoring&lt;/h2&gt;
+&lt;p&gt;jSparrow is an IDE extension that helps you detect and fix quality problems as you write code. jSparrow flags errors similar to a spell checker so they can be fixed before committing code.&lt;/p&gt;
+&lt;p&gt;You can also use jSparrow for refactoring Java code with a rule-based approach. A jSparrow rule is a definition of many small composed refactoring steps performed by the plug-in; one rule, when selected, can by itself refactor a very specific area within your system-wide code.&lt;/p&gt;
+&lt;p&gt;The jSparrow IDE extension adds 117 rules including 3 interactive rules: Standard output methods to Logger, Remove Unused Code, and Rename Fields to Java Conventions.&lt;/p&gt;
+&lt;p&gt;Discover more at: &lt;a href=&quot;https://jsparrow.io/about-jsparrow/&quot; rel=&quot;nofollow&quot;&gt;https://jsparrow.io/about-jsparrow/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;In general jSparrow analyzes your Java project to find quality issues and suggests automated refactorings.&lt;/p&gt;
+&lt;p&gt; For any question or feedback please feel free to send us a message: &lt;a href=&quot;https://jsparrow.io/contact-us/&quot; rel=&quot;nofollow&quot;&gt;https://jsparrow.io/contact-us/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2&gt;(!NEWS) MARCH 2023 RELEASE&lt;/h2&gt;
+&lt;ul&gt;&lt;li&gt;The 20 free rules are available after installation&lt;/li&gt;
+&lt;li&gt;All markers are available after installation&lt;/li&gt;
+&lt;/ul&gt;&lt;h2&gt;Sonarlint-like quick-fixes&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://jsparrow.github.io/tags/#marker&quot; rel=&quot;nofollow&quot;&gt;92 of the rules&lt;/a&gt; have markers; The jSparrow markers work like the quick fixes found in Sonarlint and JDTSpelling.&lt;/p&gt;
+&lt;h2&gt;Get Started with jSparrow&lt;/h2&gt;
+&lt;p&gt;We want to help developers optimize the way they can fix Java code and refactor Java code. To get started, we offer 20 free forever rules which are available after installation.&lt;/p&gt;
+&lt;h4&gt;Rules included to get started:&lt;/h4&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;/rules/collapse-if-statements.html&quot; rel=&quot;nofollow&quot;&gt;Collapse If Statements &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/rules/enums-without-equals.html&quot; rel=&quot;nofollow&quot;&gt;Replace equals() on Enum Constants &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/rules/for-to-for-each.html&quot; rel=&quot;nofollow&quot;&gt;Replace For-Loop with Enhanced-For-Loop &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/rules/lambda-to-method-reference.html&quot; rel=&quot;nofollow&quot;&gt;Replace Expression Lambda with Method Reference &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/rules/multi-variable-declaration-line.html&quot; rel=&quot;nofollow&quot;&gt;Split Multiple Variable Declarations &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/rules/optional-filter.html&quot; rel=&quot;nofollow&quot;&gt;Use Optional::filter &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/rules/organize-imports.html&quot; rel=&quot;nofollow&quot;&gt;Organize Imports &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/rules/override-annotation.html&quot; rel=&quot;nofollow&quot;&gt;Use @Override Annotation &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/rules/primitive-boxed-for-string.html&quot; rel=&quot;nofollow&quot;&gt;Remove Boxing for String Conversions &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/rules/remove-double-negation.html&quot; rel=&quot;nofollow&quot;&gt;Remove Double Negations &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/rules/remove-empty-statement.html&quot; rel=&quot;nofollow&quot;&gt;Remove Unnecessary Semicolons &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/rules/remove-null-check-before-instanceof.html&quot; rel=&quot;nofollow&quot;&gt;Remove Null-Checks Before Instanceof &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/rules/remove-unnecessary-throws.html&quot; rel=&quot;nofollow&quot;&gt;Remove Unnecessary Thrown Exceptions on Method Signatures &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/rules/remove-to-string-on-string.html&quot; rel=&quot;nofollow&quot;&gt;Remove toString() on String &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/rules/string-literal-equality-check.html&quot; rel=&quot;nofollow&quot;&gt;Reorder String Equality Check &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/rules/inefficient-constructor.html&quot; rel=&quot;nofollow&quot;&gt;Replace Inefficient Constructors with valueOf() &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/rules/try-with-resource.html&quot; rel=&quot;nofollow&quot;&gt;Use Try-With-Resource &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/rules/use-is-empty-on-collections.html&quot; rel=&quot;nofollow&quot;&gt;Replace Equality Check with isEmpty() &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/rules/use-offset-based-string-methods.html&quot; rel=&quot;nofollow&quot;&gt;Use Offset Based String Methods &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/rules/use-secure-random.html&quot; rel=&quot;nofollow&quot;&gt;Use SecureRandom &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h2&gt;What is refactoring?&lt;/h2&gt;
+&lt;p&gt;Refactoring is a process of system-wide code restructuring and reordering without affecting the system&#039;s external forms of action and behavior. In simpler terms, refactoring is improving software&#039;s code without affecting the software&#039;s user interfaces and experiences.&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+&lt;h3&gt;Refactoring Steps:&lt;/h3&gt;
+&lt;ul&gt;&lt;li&gt;Create working copies of selected Java files&lt;/li&gt;
+&lt;li&gt;Analyse refactoring possibilities&lt;/li&gt;
+&lt;li&gt;Apply the refactoring&lt;/li&gt;
+&lt;li&gt;Compare working copies with original sources&lt;/li&gt;
+&lt;li&gt;Persist wanted refactoring to original sources&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;Please visit our &lt;a href=&quot;https://jsparrow.io/about-jsparrow/&quot; rel=&quot;nofollow&quot;&gt;About jSparrow&lt;/a&gt; page to see the refactoring process of jSparrow in more detail.&lt;/p&gt;
+&lt;h2&gt;Refactor JUnit Test Cases&lt;/h2&gt;
+&lt;p&gt;JUnit is an open-source unit testing framework for Java. The goal of unit testing or unit test cases is to test individual units of software and validate expected performance. Since 2022 junit.org has released the next generation of JUnit: Junit 5. To help Java developers with the migration from JUnit 3 and JUnit 4 to JUnit 5, this plug-in includes ten JUnit refactoring rules:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://jsparrow.github.io/rules/replace-j-unit3-test-cases.html#description&quot; rel=&quot;nofollow&quot;&gt;Replace JUnit 3 Tests&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://jsparrow.github.io/rules/replace-j-unit4-annotations-with-jupiter.html#description&quot; rel=&quot;nofollow&quot;&gt;Replace JUnit 4 Annotations with JUnit Jupiter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://jsparrow.github.io/rules/replace-j-unit4-assertions-with-jupiter.html#description&quot; rel=&quot;nofollow&quot;&gt;Replace JUnit 4 Assertions with JUnit Jupiter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://jsparrow.github.io/rules/replace-j-unit4-assumptions-with-jupiter.html#description&quot; rel=&quot;nofollow&quot;&gt;Replace JUnit 4 Assumptions with JUnit Jupiter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://jsparrow.github.io/rules/replace-j-unit4-category-with-jupiter-tag.html#description&quot; rel=&quot;nofollow&quot;&gt;Replace JUnit 4 Category with JUnit Jupiter Tag&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://jsparrow.github.io/rules/replace-j-unit4-assumptions-with-hamcrest-j-unit.html#description&quot; rel=&quot;nofollow&quot;&gt;Replace JUnit Assumptions with Hamcrest Junit&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://jsparrow.github.io/rules/replace-j-unit-expected-annotation-property.html#description&quot; rel=&quot;nofollow&quot;&gt;Replace JUnit Expected Annotation Property with assertThrows&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://jsparrow.github.io/rules/replace-j-unit-expected-exception.html#description&quot; rel=&quot;nofollow&quot;&gt;Replace JUnit ExpectedException with assertThrows&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://jsparrow.github.io/rules/replace-j-unit-timeout-annotation-property.html#description&quot; rel=&quot;nofollow&quot;&gt;Replace JUnit Timeout Annotation Property with assertTimeout&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://jsparrow.github.io/rules/replace-j-unit-assert-that-with-hamcrest.html#description&quot; rel=&quot;nofollow&quot;&gt;Replace JUnit assertThat with Hamcrest&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://jsparrow.github.io/rules/use-dedicated-assertions.html#description&quot; rel=&quot;nofollow&quot;&gt;Use Dedicated Assertions&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;The plug-in documentation shows Java and JUnit test case examples that get refactored.&lt;/p&gt;
+&lt;h2&gt;Other jSparrow Tags&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;JUnit&lt;/em&gt; is a tag that we use for the JUnit refactor rules. Tags describe properties of jSparrow rules with the intent of grouping similar rules together and making them easier to find and search for. Below are all our current tags:&lt;/p&gt;
+&lt;h3&gt;Minimum Java Versions&lt;/h3&gt;
+&lt;p&gt;All jSparrow rules have a Minimum Java Version, which means that a rule with (for example) a Minimum Java version of 1.1 can be used on Java version 1.1 and all Java versions after 1.1.&lt;/p&gt;
+&lt;p&gt;Rules with tag: &lt;a href=&quot;https://jsparrow.github.io/tags/#java-version-tags&quot; rel=&quot;nofollow&quot;&gt;https://jsparrow.github.io/tags/#java-version-tags&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Version tags quick-links: &lt;a href=&quot;https://jsparrow.github.io/tags/#java-1-1&quot; rel=&quot;nofollow&quot;&gt;Java 1.1&lt;/a&gt;, &lt;a href=&quot;https://jsparrow.github.io/tags/#java-1-2&quot; rel=&quot;nofollow&quot;&gt;Java 1.2&lt;/a&gt;, &lt;a href=&quot;https://jsparrow.github.io/tags/#java-1-3&quot; rel=&quot;nofollow&quot;&gt;Java 1.3&lt;/a&gt;, &lt;a href=&quot;https://jsparrow.github.io/tags/#java-1-4&quot; rel=&quot;nofollow&quot;&gt;Java 1.4&lt;/a&gt;, &lt;a href=&quot;https://jsparrow.github.io/tags/#java-5&quot; rel=&quot;nofollow&quot;&gt;Java 5&lt;/a&gt;, &lt;a href=&quot;https://jsparrow.github.io/tags/#java-6&quot; rel=&quot;nofollow&quot;&gt;Java 6&lt;/a&gt;, &lt;a href=&quot;https://jsparrow.github.io/tags/#java-7&quot; rel=&quot;nofollow&quot;&gt;Java 7&lt;/a&gt;, &lt;a href=&quot;https://jsparrow.github.io/tags/#java-8&quot; rel=&quot;nofollow&quot;&gt;Java 8&lt;/a&gt;, &lt;a href=&quot;https://jsparrow.github.io/tags/#java-9&quot; rel=&quot;nofollow&quot;&gt;Java 9&lt;/a&gt;, &lt;a href=&quot;https://jsparrow.github.io/tags/#java-10&quot; rel=&quot;nofollow&quot;&gt;Java 10&lt;/a&gt;, &lt;a href=&quot;https://jsparrow.github.io/tags/#java-11&quot; rel=&quot;nofollow&quot;&gt;Java 11&lt;/a&gt;, &lt;a href=&quot;https://jsparrow.github.io/tags/#java-14&quot; rel=&quot;nofollow&quot;&gt;Java 14&lt;/a&gt;, &lt;a href=&quot;https://jsparrow.github.io/tags/#java-15&quot; rel=&quot;nofollow&quot;&gt;Java 15&lt;/a&gt;, and &lt;a href=&quot;https://jsparrow.github.io/tags/#java-16&quot; rel=&quot;nofollow&quot;&gt;Java 16&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Coding conventions for Java&lt;/h3&gt;
+&lt;p&gt;Coding conventions for Java consist of a set of recommended code styles and best practices. Rules with the Coding Conventionstag will alter source code parts to follow guides, such as the Google Java Style Guide.&lt;/p&gt;
+&lt;p&gt;Rules with tag: &lt;a href=&quot;https://jsparrow.github.io/tags/#coding-conventions&quot; rel=&quot;nofollow&quot;&gt;https://jsparrow.github.io/tags/#coding-conventions&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;I/O operations provided by java.io or java.nio&lt;/h3&gt;
+&lt;p&gt;The I/O operations tag marks rules that deal with I/O operations provided by java.io or java.nio.&lt;/p&gt;
+&lt;p&gt;Rules with tag: &lt;a href=&quot;https://jsparrow.github.io/tags/#io-operations&quot; rel=&quot;nofollow&quot;&gt;https://jsparrow.github.io/tags/#io-operations&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Lambda&lt;/h3&gt;
+&lt;p&gt;Lambda expressions are anonymous and unnamed functions that enable you to treat functionality as a method argument or code as data. Lambda expressions are an integral part of the java.util.stream API. Whenever a rule has this tag, it means that either a lambda expression is introduced or manipulated.&lt;/p&gt;
+&lt;p&gt;Rules with tag: &lt;a href=&quot;https://jsparrow.github.io/tags/#lambda&quot; rel=&quot;nofollow&quot;&gt;https://jsparrow.github.io/tags/#lambda&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Logging&lt;/h3&gt;
+&lt;p&gt;Logging frameworks ease and standardize the process of logging for the Java platform. In particular, they provide flexibility by avoiding explicit output to the console. The location where logs are written becomes independent of the code and can be customized at runtime. Rules marked with this tag either introduce logging or improve aspects of the same.&lt;/p&gt;
+&lt;p&gt;Rules with tag: &lt;a href=&quot;https://jsparrow.github.io/tags/#logging&quot; rel=&quot;nofollow&quot;&gt;https://jsparrow.github.io/tags/#logging&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Java Loops&lt;/h3&gt;
+&lt;p&gt;A loop is an instruction that repeats until a specified condition is reached. Examples would be for, while, or forEach loops. Respectively, rules with the Loop tag will interact with such loops.&lt;/p&gt;
+&lt;p&gt;Rules with tag: &lt;a href=&quot;https://jsparrow.github.io/tags/#Loop&quot; rel=&quot;nofollow&quot;&gt;https://jsparrow.github.io/tags/#Loop&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Old Java Language Constructs&lt;/h3&gt;
+&lt;p&gt;jSparrow rules having the Old Language Constructs tag replace old constructs with more up-to-date alternatives.&lt;/p&gt;
+&lt;p&gt;Rules with tag: &lt;a href=&quot;https://jsparrow.github.io/tags/#old-language-constructs&quot; rel=&quot;nofollow&quot;&gt;https://jsparrow.github.io/tags/#old-language-constructs&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Performance improving rules&lt;/h3&gt;
+&lt;p&gt;The Performance tag indicates that a code fragment is replaced by a more performant one.&lt;/p&gt;
+&lt;p&gt;Rules with tag: &lt;a href=&quot;https://jsparrow.github.io/tags/#performance&quot; rel=&quot;nofollow&quot;&gt;https://jsparrow.github.io/tags/#performance&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Improve Readability&lt;/h3&gt;
+&lt;p&gt;Rules marked with the Readability tag improve the ease with which a human reader can comprehend the purpose, control flow, and operation of source code. It affects aspects of quality, including portability, usability, and most importantly maintainability.&lt;/p&gt;
+&lt;p&gt;Rules with tag: &lt;a href=&quot;https://jsparrow.github.io/tags/#readability&quot; rel=&quot;nofollow&quot;&gt;https://jsparrow.github.io/tags/#readability&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Security&lt;/h3&gt;
+&lt;p&gt;Security issues refer to vulnerabilities that can be exploited by an attacker to perform unauthorized actions within a computer program. Rules marked with this tag replace vulnerable code fragments with secure alternatives.&lt;/p&gt;
+&lt;p&gt;Rules with tag: &lt;a href=&quot;https://jsparrow.github.io/tags/#security&quot; rel=&quot;nofollow&quot;&gt;https://jsparrow.github.io/tags/#security&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;String Manipulation&lt;/h3&gt;
+&lt;p&gt;String manipulation is the process of creating, parsing, or changing String variables or literals. Typical operations on strings include a concatenation of values or the creation of a String output based on the input of another type. jSparrow rules having this tag will therefore be related to such String operations.&lt;/p&gt;
+&lt;p&gt;Rules with tag: &lt;a href=&quot;https://jsparrow.github.io/tags/#string-manipulation&quot; rel=&quot;nofollow&quot;&gt;https://jsparrow.github.io/tags/#string-manipulation&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Testing&lt;/h3&gt;
+&lt;p&gt;jSparrow rules having this tag encourage using best practices in the test code.&lt;/p&gt;
+&lt;p&gt;Rules with tag: &lt;a href=&quot;https://jsparrow.github.io/tags/#testing&quot; rel=&quot;nofollow&quot;&gt;https://jsparrow.github.io/tags/#testing&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;AssertJ&lt;/h3&gt;
+&lt;p&gt;jSparrow rules having this tag encourage best practices on using the AssertJ library for writing fluent assertions in unit tests.&lt;/p&gt;
+&lt;p&gt;Rules with tag: &lt;a href=&quot;https://jsparrow.github.io/tags/#assertj&quot; rel=&quot;nofollow&quot;&gt;https://jsparrow.github.io/tags/#assertj&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Spring&lt;/h3&gt;
+&lt;p&gt;jSparrow rules having this tag encourage best practices on using the Spring library for writing web applications.&lt;/p&gt;
+&lt;p&gt;Rules with tag: &lt;a href=&quot;https://jsparrow.github.io/tags/#assertj&quot; rel=&quot;nofollow&quot;&gt;https://jsparrow.github.io/tags/#Spring&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Free Tag&lt;/h3&gt;
+&lt;p&gt;Rules with the Free tag are free to use.&lt;/p&gt;
+&lt;p&gt;Rules with tag: &lt;a href=&quot;https://jsparrow.github.io/tags/#free&quot; rel=&quot;nofollow&quot;&gt;https://jsparrow.github.io/tags/#free&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;jSparrow links&lt;/h3&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://jsparrow.github.io/&quot; rel=&quot;nofollow&quot;&gt;Documentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/@captain_jsparrow&quot; rel=&quot;nofollow&quot;&gt;YouTube Channel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://jsparrow.io/pricing&quot; rel=&quot;nofollow&quot;&gt;Pricing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://jsparrow.io/&quot; rel=&quot;nofollow&quot;&gt;Our Website&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h2&gt;jSparrow Updates&lt;/h2&gt;
+&lt;h3&gt;Latest version release&lt;/h3&gt;
+&lt;p&gt;jSparrow Eclipse IDE plug-in latest version: 4.16.0&lt;/p&gt;
+&lt;p&gt;jSparrow Maven plug-in latest version: 3.20.0&lt;/p&gt;
+&lt;h3&gt;Our release policy&lt;/h3&gt;
+&lt;p&gt;We will release at least one new rule in March, June, September, and December.&lt;/p&gt;
+&lt;p&gt;Bugfixes will be released each Thursday.&lt;/p&gt;
+&lt;p&gt;Hotfix Releases can be deployed at any time when urgent.&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;Next jSparrow Release&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Thursday 2023-05-18&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Tue, 20 Jun 2017 15:34:11 +0000</pubDate>
+ <dc:creator>mprehofer</dc:creator>
+ <guid isPermaLink="false">3503691 at https://marketplace.eclipse.org</guid>
+ <comments>https://marketplace.eclipse.org/content/jsparrow-java-refactoring-and-java-code-analyzer#comments</comments>
+  </item>
+  <item>
+    <title>DBeaver</title>
+    <link>https://marketplace.eclipse.org/content/dbeaver</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;https://marketplace.eclipse.org/sites/default/files/Community_icon.png&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/sriderdp1/listings&quot; title=&quot;Serge Rider&quot;&gt;Serge Rider&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Sun, 2012-11-04 11:30&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Sun, 2023-03-26 14:35&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22DBeaver%20Corp%22&quot;&gt;DBeaver Corp&lt;/a&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;DBeaver is free universal SQL client/database tool for developers and database administrators. It can work with any database server which has JDBC or ODBC driver. It supports pluggable extensions.&lt;/p&gt;
+&lt;p&gt;Features: database schema browser, metadata editor (tables, columns, keys, indexes), SQL statements/scripts execution, SQL highlighting, autocompletion, formatting; result set/table view/edit/search; BLOB/CLOB view/edit support; GIS spatial data viewer, scrollable resultsets; transactions management; database metadata and full-text search; ER diagrams; server sessions management, transaction locks management, SSH/SOCKS support; automatic drivers download; stored procedures debugger; data import/export/migration; task management, database health monitoring dashboards; spatial data viewer; git integration; office formats support; etc.&lt;/p&gt;
+&lt;p&gt;Includes drivers for: MySQL, MariaDB, Oracle, DB2, PostgreSQL, SQL Server, Sybase, Apache Hive, Drill, Presto, Trino, Phoenix, Exasol, Informix, Teradata, Vertica, Netezza, Firebird, Derby, H2, H2GIS, WMI, Snowflake, Greenplum, AWS Redshift, AWS Athena, SAP HANA, MaxDB, NuoDB, MS Access, SQLite, CSV, DBF, Firebird, TimescaleDB, Yellowbrick, CockroachDB, OrientDB, MonetDB, Google BigQuery, Google Spanner, Apache Hive/Impala/Spark, Apache Ignite, MapD, Azure SQL, CrateDB, Elasticsearch, Ocient, Ingres, OmniSci, Yugabyte, IRIS, Data Virtuality, Denodo, DuckDB, Babelfish, OceanBase, Salesforce, EnterpriseDB, Apache Druid, Apache Kylin, Azure Databricks, OpenSearch, TiDB.&lt;/p&gt;
+&lt;p&gt;Supports Color Theme and Darkest Dark themes.&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Standalone version download available on &lt;a href=&quot;https://dbeaver.io/download/&quot; rel=&quot;nofollow&quot;&gt;https://dbeaver.io/download/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Source code: &lt;a href=&quot;https://github.com/dbeaver/dbeaver&quot; rel=&quot;nofollow&quot;&gt;https://github.com/dbeaver/dbeaver&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;User guide: &lt;a href=&quot;https://github.com/dbeaver/dbeaver/wiki&quot; rel=&quot;nofollow&quot;&gt;https://github.com/dbeaver/dbeaver/wiki&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Sun, 04 Nov 2012 16:30:36 +0000</pubDate>
+ <dc:creator>sriderdp1</dc:creator>
+ <guid isPermaLink="false">507775 at https://marketplace.eclipse.org</guid>
+ <comments>https://marketplace.eclipse.org/content/dbeaver#comments</comments>
+  </item>
+  <item>
+    <title>iRPGUnit</title>
+    <link>https://marketplace.eclipse.org/content/irpgunit</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;https://marketplace.eclipse.org/sites/default/files/rpgunit_marketplace.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/traddatz/listings&quot; title=&quot;Thomas Raddatz&quot;&gt;Thomas Raddatz&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2018-05-09 16:14&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Sun, 2023-03-26 13:50&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22iRPGUnit%20Project%20Team%22&quot;&gt;iRPGUnit Project Team&lt;/a&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;iRPGUnit is an open source plugin for RDi 8.0+. The plug-in provides unit tests for RPG on IBM i.&lt;/p&gt;
+&lt;p&gt;iRPGUnit is a fork of the RPGUnit project, providing enhancements and an Eclipse plug-in for running unit test from your IBM Rational Developer for i.&lt;/p&gt;
+&lt;p&gt;Further information about iRPGUnit are available on the iRPGUnit Web Site.&lt;/p&gt;
+&lt;p&gt;The iRPGUnit library requires V6R1 or higher. For lower releases you can compile the library from an i Project by hand. Refer to the iRPGUnit help pages for details.&lt;/p&gt;
+&lt;p&gt;iRPGUnit is an Open Source project that is hosted on &lt;a href=&quot;https://sourceforge.net/projects/irpgunit/&quot; rel=&quot;nofollow&quot;&gt;Source Forge&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Wed, 09 May 2018 20:14:09 +0000</pubDate>
+ <dc:creator>traddatz</dc:creator>
+ <guid isPermaLink="false">4074445 at https://marketplace.eclipse.org</guid>
+ <comments>https://marketplace.eclipse.org/content/irpgunit#comments</comments>
+  </item>
+  </channel>
+</rss>
