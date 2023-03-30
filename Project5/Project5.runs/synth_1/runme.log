@@ -18,33 +18,33 @@ Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
 INFO: [Device 21-403] Loading part xc7z010clg400-1
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 23242 
+INFO: Helper process launched with PID 132354 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1777.254 ; gain = 154.719 ; free physical = 14238 ; free virtual = 26294
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1777.254 ; gain = 154.719 ; free physical = 2583 ; free virtual = 17047
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'design_1_wrapper' [/home/zanpoole/School/EE316/Project5/Project5.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd:41]
-INFO: [Synth 8-3491] module 'design_1' declared at '/home/zanpoole/School/EE316/Project5/Project5.srcs/sources_1/bd/design_1/synth/design_1.vhd:579' bound to instance 'design_1_i' of component 'design_1' [/home/zanpoole/School/EE316/Project5/Project5.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd:69]
-INFO: [Synth 8-638] synthesizing module 'design_1' [/home/zanpoole/School/EE316/Project5/Project5.srcs/sources_1/bd/design_1/synth/design_1.vhd:610]
-INFO: [Synth 8-3491] module 'design_1_axi_timer_0_0' declared at '/home/zanpoole/School/EE316/Project5/Project5.runs/synth_1/.Xil/Vivado-23221-WrkStation/realtime/design_1_axi_timer_0_0_stub.vhdl:5' bound to instance 'axi_timer_0' of component 'design_1_axi_timer_0_0' [/home/zanpoole/School/EE316/Project5/Project5.srcs/sources_1/bd/design_1/synth/design_1.vhd:840]
-INFO: [Synth 8-638] synthesizing module 'design_1_axi_timer_0_0' [/home/zanpoole/School/EE316/Project5/Project5.runs/synth_1/.Xil/Vivado-23221-WrkStation/realtime/design_1_axi_timer_0_0_stub.vhdl:37]
-INFO: [Synth 8-3491] module 'design_1_processing_system7_0_0' declared at '/home/zanpoole/School/EE316/Project5/Project5.runs/synth_1/.Xil/Vivado-23221-WrkStation/realtime/design_1_processing_system7_0_0_stub.vhdl:5' bound to instance 'processing_system7_0' of component 'design_1_processing_system7_0_0' [/home/zanpoole/School/EE316/Project5/Project5.srcs/sources_1/bd/design_1/synth/design_1.vhd:869]
-INFO: [Synth 8-638] synthesizing module 'design_1_processing_system7_0_0' [/home/zanpoole/School/EE316/Project5/Project5.runs/synth_1/.Xil/Vivado-23221-WrkStation/realtime/design_1_processing_system7_0_0_stub.vhdl:76]
+INFO: [Synth 8-638] synthesizing module 'design_1_wrapper' [/home/zanpoole/School/EE316/Project5/Project5.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd:42]
+INFO: [Synth 8-3491] module 'design_1' declared at '/home/zanpoole/School/EE316/Project5/Project5.srcs/sources_1/bd/design_1/synth/design_1.vhd:579' bound to instance 'design_1_i' of component 'design_1' [/home/zanpoole/School/EE316/Project5/Project5.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd:71]
+INFO: [Synth 8-638] synthesizing module 'design_1' [/home/zanpoole/School/EE316/Project5/Project5.srcs/sources_1/bd/design_1/synth/design_1.vhd:611]
+INFO: [Synth 8-3491] module 'design_1_axi_timer_0_0' declared at '/home/zanpoole/School/EE316/Project5/Project5.runs/synth_1/.Xil/Vivado-132337-WrkStation/realtime/design_1_axi_timer_0_0_stub.vhdl:5' bound to instance 'axi_timer_0' of component 'design_1_axi_timer_0_0' [/home/zanpoole/School/EE316/Project5/Project5.srcs/sources_1/bd/design_1/synth/design_1.vhd:844]
+INFO: [Synth 8-638] synthesizing module 'design_1_axi_timer_0_0' [/home/zanpoole/School/EE316/Project5/Project5.runs/synth_1/.Xil/Vivado-132337-WrkStation/realtime/design_1_axi_timer_0_0_stub.vhdl:37]
+INFO: [Synth 8-3491] module 'design_1_processing_system7_0_0' declared at '/home/zanpoole/School/EE316/Project5/Project5.runs/synth_1/.Xil/Vivado-132337-WrkStation/realtime/design_1_processing_system7_0_0_stub.vhdl:5' bound to instance 'processing_system7_0' of component 'design_1_processing_system7_0_0' [/home/zanpoole/School/EE316/Project5/Project5.srcs/sources_1/bd/design_1/synth/design_1.vhd:873]
+INFO: [Synth 8-638] synthesizing module 'design_1_processing_system7_0_0' [/home/zanpoole/School/EE316/Project5/Project5.runs/synth_1/.Xil/Vivado-132337-WrkStation/realtime/design_1_processing_system7_0_0_stub.vhdl:76]
 INFO: [Synth 8-638] synthesizing module 'design_1_ps7_0_axi_periph_0' [/home/zanpoole/School/EE316/Project5/Project5.srcs/sources_1/bd/design_1/synth/design_1.vhd:392]
 INFO: [Synth 8-638] synthesizing module 's00_couplers_imp_UYSKKA' [/home/zanpoole/School/EE316/Project5/Project5.srcs/sources_1/bd/design_1/synth/design_1.vhd:78]
-INFO: [Synth 8-3491] module 'design_1_auto_pc_0' declared at '/home/zanpoole/School/EE316/Project5/Project5.runs/synth_1/.Xil/Vivado-23221-WrkStation/realtime/design_1_auto_pc_0_stub.vhdl:5' bound to instance 'auto_pc' of component 'design_1_auto_pc_0' [/home/zanpoole/School/EE316/Project5/Project5.srcs/sources_1/bd/design_1/synth/design_1.vhd:259]
-INFO: [Synth 8-638] synthesizing module 'design_1_auto_pc_0' [/home/zanpoole/School/EE316/Project5/Project5.runs/synth_1/.Xil/Vivado-23221-WrkStation/realtime/design_1_auto_pc_0_stub.vhdl:70]
+INFO: [Synth 8-3491] module 'design_1_auto_pc_0' declared at '/home/zanpoole/School/EE316/Project5/Project5.runs/synth_1/.Xil/Vivado-132337-WrkStation/realtime/design_1_auto_pc_0_stub.vhdl:5' bound to instance 'auto_pc' of component 'design_1_auto_pc_0' [/home/zanpoole/School/EE316/Project5/Project5.srcs/sources_1/bd/design_1/synth/design_1.vhd:259]
+INFO: [Synth 8-638] synthesizing module 'design_1_auto_pc_0' [/home/zanpoole/School/EE316/Project5/Project5.runs/synth_1/.Xil/Vivado-132337-WrkStation/realtime/design_1_auto_pc_0_stub.vhdl:70]
 INFO: [Synth 8-256] done synthesizing module 's00_couplers_imp_UYSKKA' (1#1) [/home/zanpoole/School/EE316/Project5/Project5.srcs/sources_1/bd/design_1/synth/design_1.vhd:78]
 INFO: [Synth 8-256] done synthesizing module 'design_1_ps7_0_axi_periph_0' (2#1) [/home/zanpoole/School/EE316/Project5/Project5.srcs/sources_1/bd/design_1/synth/design_1.vhd:392]
-INFO: [Synth 8-3491] module 'design_1_rst_ps7_0_50M_0' declared at '/home/zanpoole/School/EE316/Project5/Project5.runs/synth_1/.Xil/Vivado-23221-WrkStation/realtime/design_1_rst_ps7_0_50M_0_stub.vhdl:5' bound to instance 'rst_ps7_0_50M' of component 'design_1_rst_ps7_0_50M_0' [/home/zanpoole/School/EE316/Project5/Project5.srcs/sources_1/bd/design_1/synth/design_1.vhd:1001]
-INFO: [Synth 8-638] synthesizing module 'design_1_rst_ps7_0_50M_0' [/home/zanpoole/School/EE316/Project5/Project5.runs/synth_1/.Xil/Vivado-23221-WrkStation/realtime/design_1_rst_ps7_0_50M_0_stub.vhdl:21]
-INFO: [Synth 8-256] done synthesizing module 'design_1' (3#1) [/home/zanpoole/School/EE316/Project5/Project5.srcs/sources_1/bd/design_1/synth/design_1.vhd:610]
-INFO: [Synth 8-256] done synthesizing module 'design_1_wrapper' (4#1) [/home/zanpoole/School/EE316/Project5/Project5.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd:41]
+INFO: [Synth 8-3491] module 'design_1_rst_ps7_0_50M_0' declared at '/home/zanpoole/School/EE316/Project5/Project5.runs/synth_1/.Xil/Vivado-132337-WrkStation/realtime/design_1_rst_ps7_0_50M_0_stub.vhdl:5' bound to instance 'rst_ps7_0_50M' of component 'design_1_rst_ps7_0_50M_0' [/home/zanpoole/School/EE316/Project5/Project5.srcs/sources_1/bd/design_1/synth/design_1.vhd:1005]
+INFO: [Synth 8-638] synthesizing module 'design_1_rst_ps7_0_50M_0' [/home/zanpoole/School/EE316/Project5/Project5.runs/synth_1/.Xil/Vivado-132337-WrkStation/realtime/design_1_rst_ps7_0_50M_0_stub.vhdl:21]
+INFO: [Synth 8-256] done synthesizing module 'design_1' (3#1) [/home/zanpoole/School/EE316/Project5/Project5.srcs/sources_1/bd/design_1/synth/design_1.vhd:611]
+INFO: [Synth 8-256] done synthesizing module 'design_1_wrapper' (4#1) [/home/zanpoole/School/EE316/Project5/Project5.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd:42]
 WARNING: [Synth 8-3331] design s00_couplers_imp_UYSKKA has unconnected port M_ACLK
 WARNING: [Synth 8-3331] design s00_couplers_imp_UYSKKA has unconnected port M_ARESETN
 WARNING: [Synth 8-3331] design design_1_ps7_0_axi_periph_0 has unconnected port ACLK
 WARNING: [Synth 8-3331] design design_1_ps7_0_axi_periph_0 has unconnected port ARESETN
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1834.973 ; gain = 212.438 ; free physical = 14255 ; free virtual = 26311
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1834.973 ; gain = 212.438 ; free physical = 2611 ; free virtual = 17079
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -57,10 +57,10 @@ Report Check Netlist:
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1840.910 ; gain = 218.375 ; free physical = 14256 ; free virtual = 26312
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1840.910 ; gain = 218.375 ; free physical = 2610 ; free virtual = 17078
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1840.910 ; gain = 218.375 ; free physical = 14256 ; free virtual = 26312
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1840.910 ; gain = 218.375 ; free physical = 2610 ; free virtual = 17078
 ---------------------------------------------------------------------------------
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
@@ -82,20 +82,20 @@ Parsing XDC File [/home/zanpoole/School/EE316/Project5/Project5.runs/synth_1/don
 Finished Parsing XDC File [/home/zanpoole/School/EE316/Project5/Project5.runs/synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1939.629 ; gain = 0.000 ; free physical = 14163 ; free virtual = 26219
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1939.629 ; gain = 0.000 ; free physical = 2492 ; free virtual = 16982
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1939.629 ; gain = 0.000 ; free physical = 14163 ; free virtual = 26219
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1939.629 ; gain = 0.000 ; free physical = 2492 ; free virtual = 16982
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 1939.629 ; gain = 317.094 ; free physical = 14235 ; free virtual = 26292
+Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 1939.629 ; gain = 317.094 ; free physical = 2551 ; free virtual = 17045
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z010clg400-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 1939.629 ; gain = 317.094 ; free physical = 14235 ; free virtual = 26292
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 1939.629 ; gain = 317.094 ; free physical = 2551 ; free virtual = 17045
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -367,10 +367,10 @@ Applied set_property DONT_TOUCH = true for design_1_i/ps7_0_axi_periph. (constra
 Applied set_property DONT_TOUCH = true for design_1_i/rst_ps7_0_50M. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for design_1_i/ps7_0_axi_periph/s00_couplers/auto_pc. (constraint file  auto generated constraint, line ).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1939.629 ; gain = 317.094 ; free physical = 14235 ; free virtual = 26291
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 1939.629 ; gain = 317.094 ; free physical = 2547 ; free virtual = 17045
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1939.629 ; gain = 317.094 ; free physical = 14236 ; free virtual = 26294
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 1939.629 ; gain = 317.094 ; free physical = 2548 ; free virtual = 17046
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -410,7 +410,7 @@ WARNING: [Synth 8-3331] design s00_couplers_imp_UYSKKA has unconnected port M_AR
 WARNING: [Synth 8-3331] design design_1_ps7_0_axi_periph_0 has unconnected port ACLK
 WARNING: [Synth 8-3331] design design_1_ps7_0_axi_periph_0 has unconnected port ARESETN
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 1939.629 ; gain = 317.094 ; free physical = 14235 ; free virtual = 26294
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1939.629 ; gain = 317.094 ; free physical = 2544 ; free virtual = 17045
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -424,13 +424,13 @@ Start Applying XDC Timing Constraints
 INFO: [Synth 8-5578] Moved timing constraint from pin 'design_1_i/processing_system7_0/FCLK_CLK0' to pin 'design_1_i/processing_system7_0/bbstub_FCLK_CLK0/O'
 INFO: [Synth 8-5819] Moved 1 constraints on hierarchical pins to their respective driving/loading pins
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 1939.629 ; gain = 317.094 ; free physical = 14111 ; free virtual = 26171
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 1939.629 ; gain = 317.094 ; free physical = 2414 ; free virtual = 16924
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 1939.629 ; gain = 317.094 ; free physical = 14110 ; free virtual = 26171
+Finished Timing Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 1939.629 ; gain = 317.094 ; free physical = 2414 ; free virtual = 16924
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -442,7 +442,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 1939.629 ; gain = 317.094 ; free physical = 14105 ; free virtual = 26166
+Finished Technology Mapping : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 1939.629 ; gain = 317.094 ; free physical = 2409 ; free virtual = 16919
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -460,7 +460,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 1939.629 ; gain = 317.094 ; free physical = 14105 ; free virtual = 26166
+Finished IO Insertion : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 1939.629 ; gain = 317.094 ; free physical = 2409 ; free virtual = 16919
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -473,7 +473,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 1939.629 ; gain = 317.094 ; free physical = 14105 ; free virtual = 26166
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 1939.629 ; gain = 317.094 ; free physical = 2409 ; free virtual = 16919
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -485,7 +485,7 @@ Report RTL Partitions:
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 1939.629 ; gain = 317.094 ; free physical = 14105 ; free virtual = 26166
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 1939.629 ; gain = 317.094 ; free physical = 2409 ; free virtual = 16920
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -509,38 +509,38 @@ Report Cell Usage:
 |2     |design_1_axi_timer_0_0_bbox_0          |     1|
 |3     |design_1_processing_system7_0_0_bbox_1 |     1|
 |4     |design_1_rst_ps7_0_50M_0_bbox_3        |     1|
-|5     |OBUF                                   |     1|
+|5     |OBUF                                   |     2|
 +------+---------------------------------------+------+
 
 Report Instance Areas: 
 +------+---------------------+----------------------------+------+
 |      |Instance             |Module                      |Cells |
 +------+---------------------+----------------------------+------+
-|1     |top                  |                            |   419|
+|1     |top                  |                            |   420|
 |2     |  design_1_i         |design_1                    |   418|
 |3     |    ps7_0_axi_periph |design_1_ps7_0_axi_periph_0 |   177|
 |4     |      s00_couplers   |s00_couplers_imp_UYSKKA     |   177|
 +------+---------------------+----------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 1939.629 ; gain = 317.094 ; free physical = 14105 ; free virtual = 26166
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 1939.629 ; gain = 317.094 ; free physical = 2409 ; free virtual = 16920
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 4 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1939.629 ; gain = 218.375 ; free physical = 14162 ; free virtual = 26223
-Synthesis Optimization Complete : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 1939.629 ; gain = 317.094 ; free physical = 14162 ; free virtual = 26223
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1939.629 ; gain = 218.375 ; free physical = 2466 ; free virtual = 16976
+Synthesis Optimization Complete : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 1939.629 ; gain = 317.094 ; free physical = 2466 ; free virtual = 16976
 INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1952.379 ; gain = 0.000 ; free physical = 14109 ; free virtual = 26169
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1952.379 ; gain = 0.000 ; free physical = 2410 ; free virtual = 16922
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
 32 Infos, 8 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1952.379 ; gain = 538.148 ; free physical = 14195 ; free virtual = 26255
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1952.379 ; gain = 0.000 ; free physical = 14195 ; free virtual = 26255
+synth_design: Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 1952.379 ; gain = 538.148 ; free physical = 2497 ; free virtual = 17008
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1952.379 ; gain = 0.000 ; free physical = 2497 ; free virtual = 17008
 WARNING: [Constraints 18-5210] No constraints selected for write.
 Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
 INFO: [Common 17-1381] The checkpoint '/home/zanpoole/School/EE316/Project5/Project5.runs/synth_1/design_1_wrapper.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file design_1_wrapper_utilization_synth.rpt -pb design_1_wrapper_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Tue Mar 28 19:47:36 2023...
+INFO: [Common 17-206] Exiting Vivado at Thu Mar 30 13:21:38 2023...

@@ -1,10 +1,10 @@
 // Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2019.1.3 (lin64) Build 2644227 Wed Sep  4 09:44:18 MDT 2019
-// Date        : Tue Mar 28 19:47:13 2023
+// Date        : Tue Mar 28 19:47:12 2023
 // Host        : WrkStation running 64-bit Linux Mint 21.1
-// Command     : write_verilog -force -mode synth_stub
-//               /home/zanpoole/School/EE316/Project5/Project5.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_stub.v
+// Command     : write_verilog -force -mode synth_stub -rename_top design_1_auto_pc_0 -prefix
+//               design_1_auto_pc_0_ design_1_auto_pc_0_stub.v
 // Design      : design_1_auto_pc_0
 // Purpose     : Stub declaration of top-level module interface
 // Device      : xc7z010clg400-1

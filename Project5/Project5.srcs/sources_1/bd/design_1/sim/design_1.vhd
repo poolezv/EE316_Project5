@@ -1,7 +1,7 @@
 --Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
 --Tool Version: Vivado v.2019.1.3 (lin64) Build 2644227 Wed Sep  4 09:44:18 MDT 2019
---Date        : Tue Mar 28 19:42:18 2023
+--Date        : Thu Mar 30 13:21:09 2023
 --Host        : WrkStation running 64-bit Linux Mint 21.1
 --Command     : generate_target design_1.bd
 --Design      : design_1
@@ -599,6 +599,7 @@ entity design_1 is
     FIXED_IO_ps_clk : inout STD_LOGIC;
     FIXED_IO_ps_porb : inout STD_LOGIC;
     FIXED_IO_ps_srstb : inout STD_LOGIC;
+    oInterupt : out STD_LOGIC;
     oPWM : out STD_LOGIC
   );
   attribute CORE_GENERATION_INFO : string;
@@ -721,6 +722,7 @@ architecture STRUCTURE of design_1 is
     peripheral_aresetn : out STD_LOGIC_VECTOR ( 0 to 0 )
   );
   end component design_1_rst_ps7_0_50M_0;
+  signal axi_timer_0_interrupt : STD_LOGIC;
   signal axi_timer_0_pwm0 : STD_LOGIC;
   signal processing_system7_0_DDR_ADDR : STD_LOGIC_VECTOR ( 14 downto 0 );
   signal processing_system7_0_DDR_BA : STD_LOGIC_VECTOR ( 2 downto 0 );
@@ -803,7 +805,6 @@ architecture STRUCTURE of design_1 is
   signal rst_ps7_0_50M_peripheral_aresetn : STD_LOGIC_VECTOR ( 0 to 0 );
   signal NLW_axi_timer_0_generateout0_UNCONNECTED : STD_LOGIC;
   signal NLW_axi_timer_0_generateout1_UNCONNECTED : STD_LOGIC;
-  signal NLW_axi_timer_0_interrupt_UNCONNECTED : STD_LOGIC;
   signal NLW_processing_system7_0_USB0_VBUS_PWRSELECT_UNCONNECTED : STD_LOGIC;
   signal NLW_processing_system7_0_USB0_PORT_INDCTL_UNCONNECTED : STD_LOGIC_VECTOR ( 1 downto 0 );
   signal NLW_rst_ps7_0_50M_mb_reset_UNCONNECTED : STD_LOGIC;
@@ -827,6 +828,8 @@ architecture STRUCTURE of design_1 is
   attribute X_INTERFACE_INFO of FIXED_IO_ps_clk : signal is "xilinx.com:display_processing_system7:fixedio:1.0 FIXED_IO PS_CLK";
   attribute X_INTERFACE_INFO of FIXED_IO_ps_porb : signal is "xilinx.com:display_processing_system7:fixedio:1.0 FIXED_IO PS_PORB";
   attribute X_INTERFACE_INFO of FIXED_IO_ps_srstb : signal is "xilinx.com:display_processing_system7:fixedio:1.0 FIXED_IO PS_SRSTB";
+  attribute X_INTERFACE_INFO of oInterupt : signal is "xilinx.com:signal:interrupt:1.0 INTR.OINTERUPT INTERRUPT";
+  attribute X_INTERFACE_PARAMETER of oInterupt : signal is "XIL_INTERFACENAME INTR.OINTERUPT, PortWidth 1, SENSITIVITY LEVEL_HIGH";
   attribute X_INTERFACE_INFO of DDR_addr : signal is "xilinx.com:interface:ddrx:1.0 DDR ADDR";
   attribute X_INTERFACE_PARAMETER of DDR_addr : signal is "XIL_INTERFACENAME DDR, AXI_ARBITRATION_SCHEME TDM, BURST_LENGTH 8, CAN_DEBUG false, CAS_LATENCY 11, CAS_WRITE_LATENCY 11, CS_ENABLED true, DATA_MASK_ENABLED true, DATA_WIDTH 8, MEMORY_TYPE COMPONENTS, MEM_ADDR_MAP ROW_COLUMN_BANK, SLOT Single, TIMEPERIOD_PS 1250";
   attribute X_INTERFACE_INFO of DDR_ba : signal is "xilinx.com:interface:ddrx:1.0 DDR BA";
@@ -836,6 +839,7 @@ architecture STRUCTURE of design_1 is
   attribute X_INTERFACE_INFO of DDR_dqs_p : signal is "xilinx.com:interface:ddrx:1.0 DDR DQS_P";
   attribute X_INTERFACE_INFO of FIXED_IO_mio : signal is "xilinx.com:display_processing_system7:fixedio:1.0 FIXED_IO MIO";
 begin
+  oInterupt <= axi_timer_0_interrupt;
   oPWM <= axi_timer_0_pwm0;
 axi_timer_0: component design_1_axi_timer_0_0
      port map (
@@ -844,7 +848,7 @@ axi_timer_0: component design_1_axi_timer_0_0
       freeze => '0',
       generateout0 => NLW_axi_timer_0_generateout0_UNCONNECTED,
       generateout1 => NLW_axi_timer_0_generateout1_UNCONNECTED,
-      interrupt => NLW_axi_timer_0_interrupt_UNCONNECTED,
+      interrupt => axi_timer_0_interrupt,
       pwm0 => axi_timer_0_pwm0,
       s_axi_aclk => processing_system7_0_FCLK_CLK0,
       s_axi_araddr(4 downto 0) => ps7_0_axi_periph_M00_AXI_ARADDR(4 downto 0),

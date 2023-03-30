@@ -1,7 +1,7 @@
 --Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
 --Tool Version: Vivado v.2019.1.3 (lin64) Build 2644227 Wed Sep  4 09:44:18 MDT 2019
---Date        : Tue Mar 28 19:42:18 2023
+--Date        : Thu Mar 30 13:21:09 2023
 --Host        : WrkStation running 64-bit Linux Mint 21.1
 --Command     : generate_target design_1_wrapper.bd
 --Design      : design_1_wrapper
@@ -34,6 +34,7 @@ entity design_1_wrapper is
     FIXED_IO_ps_clk : inout STD_LOGIC;
     FIXED_IO_ps_porb : inout STD_LOGIC;
     FIXED_IO_ps_srstb : inout STD_LOGIC;
+    oInterupt : out STD_LOGIC;
     oPWM : out STD_LOGIC
   );
 end design_1_wrapper;
@@ -41,6 +42,7 @@ end design_1_wrapper;
 architecture STRUCTURE of design_1_wrapper is
   component design_1 is
   port (
+    oPWM : out STD_LOGIC;
     DDR_cas_n : inout STD_LOGIC;
     DDR_cke : inout STD_LOGIC;
     DDR_ck_n : inout STD_LOGIC;
@@ -62,7 +64,7 @@ architecture STRUCTURE of design_1_wrapper is
     FIXED_IO_ps_srstb : inout STD_LOGIC;
     FIXED_IO_ps_clk : inout STD_LOGIC;
     FIXED_IO_ps_porb : inout STD_LOGIC;
-    oPWM : out STD_LOGIC
+    oInterupt : out STD_LOGIC
   );
   end component design_1;
 begin
@@ -89,6 +91,7 @@ design_1_i: component design_1
       FIXED_IO_ps_clk => FIXED_IO_ps_clk,
       FIXED_IO_ps_porb => FIXED_IO_ps_porb,
       FIXED_IO_ps_srstb => FIXED_IO_ps_srstb,
+      oInterupt => oInterupt,
       oPWM => oPWM
     );
 end STRUCTURE;
