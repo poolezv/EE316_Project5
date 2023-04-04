@@ -16,4 +16,11 @@
 		<list key="textArray">
 		</list>
 	</section>
+	<section name="InstallationDialogSettings">
+		<item value="692" key="DIALOG_WIDTH"/>
+		<item value="1|Ubuntu|10.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
+		<item value="787" key="DIALOG_HEIGHT"/>
+		<item value="569" key="DIALOG_X_ORIGIN"/>
+		<item value="44" key="DIALOG_Y_ORIGIN"/>
+	</section>
 </section>

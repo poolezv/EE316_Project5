@@ -1,0 +1,8 @@
+11:33:33 **** Auto Build of configuration Debug for project hw_bsp_xgpio_intr_tapp_example_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+
+11:33:33 Build Finished (took 159ms)
+

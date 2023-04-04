@@ -1,0 +1,32 @@
+11:40:43 **** Auto Build of configuration Debug for project hw ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:30: warning: "INTC_DEVICE_ID" redefined
+ #define INTC_DEVICE_ID XPAR_INTC_0_DEVICE_ID
+ 
+../src/helloworld.c:22: note: this is the location of the previous definition
+ #define INTC_DEVICE_ID XPAR_SCUGIC_SINGLE_DEVICE_ID
+ 
+../src/helloworld.c:41:12: warning: 'GlobalIntrMask' defined but not used [-Wunused-variable]
+ static u16 GlobalIntrMask;
+            ^~~~~~~~~~~~~~
+Finished building: ../src/helloworld.c
+ 
+Building target: hw.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw_bsp/ps7_cortexa9_0/lib -o "hw.elf" ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hw.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size hw.elf  |tee "hw.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  18844	   1144	  22600	  42588	   a65c	hw.elf
+Finished building: hw.elf.size
+ 
+
+11:40:44 Build Finished (took 261ms)
+

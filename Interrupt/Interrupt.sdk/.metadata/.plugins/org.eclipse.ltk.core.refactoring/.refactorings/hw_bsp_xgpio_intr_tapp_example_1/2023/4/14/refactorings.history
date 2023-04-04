@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;hw_bsp_xgpio_intr_tapp_example_1/src/xgpio_intr_tapp_example.c&apos; to &apos;main.c&apos;" description="Rename resource &apos;xgpio_intr_tapp_example.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/xgpio_intr_tapp_example.c" name="main.c" stamp="1680622406042" updateReferences="true"/>
+</session>
