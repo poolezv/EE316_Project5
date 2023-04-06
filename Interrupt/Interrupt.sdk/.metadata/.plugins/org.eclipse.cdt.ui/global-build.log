@@ -5401,3 +5401,1243 @@ make pre-build main-build
 a9-linaro-pre-build-step
  
 make: Nothing to be done for 'main-build'.
+00:19:21 **** Auto Build of configuration Debug for project hw_bsp_xtmrctr_pwm_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xtmrctr_pwm_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xtmrctr_pwm_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xtmrctr_pwm_example.d" -MT"src/xtmrctr_pwm_example.o" -o "src/xtmrctr_pwm_example.o" "../src/xtmrctr_pwm_example.c"
+../src/xtmrctr_pwm_example.c: In function 'TmrCtrPwmExample':
+../src/xtmrctr_pwm_example.c:232:3: error: 'rawData' undeclared (first use in this function)
+   rawData = 32768;
+   ^~~~~~~
+../src/xtmrctr_pwm_example.c:232:3: note: each undeclared identifier is reported only once for each function it appears in
+../src/xtmrctr_pwm_example.c:329:1: warning: label 'err' defined but not used [-Wunused-label]
+ err:
+ ^~~
+../src/xtmrctr_pwm_example.c:179:6: warning: unused variable 'lower' [-Wunused-variable]
+  int lower = 0;
+      ^~~~~
+../src/xtmrctr_pwm_example.c:178:6: warning: unused variable 'upper' [-Wunused-variable]
+  int upper = 65535;
+      ^~~~~
+../src/xtmrctr_pwm_example.c:177:5: warning: unused variable 'DutyCyclef' [-Wunused-variable]
+  u8 DutyCyclef;
+     ^~~~~~~~~~
+../src/xtmrctr_pwm_example.c:175:6: warning: variable 'WaitCount' set but not used [-Wunused-but-set-variable]
+  u64 WaitCount;
+      ^~~~~~~~~
+make: *** [src/subdir.mk:23: src/xtmrctr_pwm_example.o] Error 1
+00:19:43 **** Auto Build of configuration Debug for project hw_bsp_xtmrctr_pwm_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xtmrctr_pwm_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xtmrctr_pwm_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xtmrctr_pwm_example.d" -MT"src/xtmrctr_pwm_example.o" -o "src/xtmrctr_pwm_example.o" "../src/xtmrctr_pwm_example.c"
+../src/xtmrctr_pwm_example.c: In function 'TmrCtrPwmExample':
+../src/xtmrctr_pwm_example.c:329:1: warning: label 'err' defined but not used [-Wunused-label]
+ err:
+ ^~~
+../src/xtmrctr_pwm_example.c:179:6: warning: unused variable 'lower' [-Wunused-variable]
+  int lower = 0;
+      ^~~~~
+../src/xtmrctr_pwm_example.c:178:6: warning: unused variable 'upper' [-Wunused-variable]
+  int upper = 65535;
+      ^~~~~
+../src/xtmrctr_pwm_example.c:177:5: warning: unused variable 'DutyCyclef' [-Wunused-variable]
+  u8 DutyCyclef;
+     ^~~~~~~~~~
+../src/xtmrctr_pwm_example.c:175:6: warning: variable 'WaitCount' set but not used [-Wunused-but-set-variable]
+  u64 WaitCount;
+      ^~~~~~~~~
+Finished building: ../src/xtmrctr_pwm_example.c
+ 
+Building target: hw_bsp_xtmrctr_pwm_example_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw_bsp/ps7_cortexa9_0/lib -o "hw_bsp_xtmrctr_pwm_example_1.elf" ./src/xtmrctr_pwm_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hw_bsp_xtmrctr_pwm_example_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size hw_bsp_xtmrctr_pwm_example_1.elf  |tee "hw_bsp_xtmrctr_pwm_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  38320	   2336	  23336	  63992	   f9f8	hw_bsp_xtmrctr_pwm_example_1.elf
+Finished building: hw_bsp_xtmrctr_pwm_example_1.elf.size
+ 
+00:22:16 **** Incremental Build of configuration Debug for project hw_bsp_xtmrctr_pwm_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+00:25:02 **** Auto Build of configuration Debug for project hw_bsp_xtmrctr_pwm_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xtmrctr_pwm_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xtmrctr_pwm_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xtmrctr_pwm_example.d" -MT"src/xtmrctr_pwm_example.o" -o "src/xtmrctr_pwm_example.o" "../src/xtmrctr_pwm_example.c"
+../src/xtmrctr_pwm_example.c: In function 'TmrCtrPwmExample':
+../src/xtmrctr_pwm_example.c:329:1: warning: label 'err' defined but not used [-Wunused-label]
+ err:
+ ^~~
+../src/xtmrctr_pwm_example.c:179:6: warning: unused variable 'lower' [-Wunused-variable]
+  int lower = 0;
+      ^~~~~
+../src/xtmrctr_pwm_example.c:178:6: warning: unused variable 'upper' [-Wunused-variable]
+  int upper = 65535;
+      ^~~~~
+../src/xtmrctr_pwm_example.c:177:5: warning: unused variable 'DutyCyclef' [-Wunused-variable]
+  u8 DutyCyclef;
+     ^~~~~~~~~~
+../src/xtmrctr_pwm_example.c:175:6: warning: variable 'WaitCount' set but not used [-Wunused-but-set-variable]
+  u64 WaitCount;
+      ^~~~~~~~~
+Finished building: ../src/xtmrctr_pwm_example.c
+ 
+Building target: hw_bsp_xtmrctr_pwm_example_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw_bsp/ps7_cortexa9_0/lib -o "hw_bsp_xtmrctr_pwm_example_1.elf" ./src/xtmrctr_pwm_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hw_bsp_xtmrctr_pwm_example_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size hw_bsp_xtmrctr_pwm_example_1.elf  |tee "hw_bsp_xtmrctr_pwm_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  38320	   2336	  23336	  63992	   f9f8	hw_bsp_xtmrctr_pwm_example_1.elf
+Finished building: hw_bsp_xtmrctr_pwm_example_1.elf.size
+ 
+00:25:09 **** Incremental Build of configuration Debug for project hw_bsp_xtmrctr_pwm_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+00:25:25 **** Auto Build of configuration Debug for project hw_bsp_xtmrctr_pwm_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xtmrctr_pwm_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xtmrctr_pwm_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xtmrctr_pwm_example.d" -MT"src/xtmrctr_pwm_example.o" -o "src/xtmrctr_pwm_example.o" "../src/xtmrctr_pwm_example.c"
+../src/xtmrctr_pwm_example.c: In function 'TmrCtrPwmExample':
+../src/xtmrctr_pwm_example.c:329:1: warning: label 'err' defined but not used [-Wunused-label]
+ err:
+ ^~~
+../src/xtmrctr_pwm_example.c:179:6: warning: unused variable 'lower' [-Wunused-variable]
+  int lower = 0;
+      ^~~~~
+../src/xtmrctr_pwm_example.c:178:6: warning: unused variable 'upper' [-Wunused-variable]
+  int upper = 65535;
+      ^~~~~
+../src/xtmrctr_pwm_example.c:177:5: warning: unused variable 'DutyCyclef' [-Wunused-variable]
+  u8 DutyCyclef;
+     ^~~~~~~~~~
+../src/xtmrctr_pwm_example.c:175:6: warning: variable 'WaitCount' set but not used [-Wunused-but-set-variable]
+  u64 WaitCount;
+      ^~~~~~~~~
+Finished building: ../src/xtmrctr_pwm_example.c
+ 
+Building target: hw_bsp_xtmrctr_pwm_example_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw_bsp/ps7_cortexa9_0/lib -o "hw_bsp_xtmrctr_pwm_example_1.elf" ./src/xtmrctr_pwm_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hw_bsp_xtmrctr_pwm_example_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size hw_bsp_xtmrctr_pwm_example_1.elf  |tee "hw_bsp_xtmrctr_pwm_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  38320	   2336	  23336	  63992	   f9f8	hw_bsp_xtmrctr_pwm_example_1.elf
+Finished building: hw_bsp_xtmrctr_pwm_example_1.elf.size
+ 
+00:25:30 **** Incremental Build of configuration Debug for project hw_bsp_xtmrctr_pwm_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+00:26:01 **** Auto Build of configuration Debug for project hw_bsp_xtmrctr_pwm_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xtmrctr_pwm_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xtmrctr_pwm_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xtmrctr_pwm_example.d" -MT"src/xtmrctr_pwm_example.o" -o "src/xtmrctr_pwm_example.o" "../src/xtmrctr_pwm_example.c"
+../src/xtmrctr_pwm_example.c: In function 'TmrCtrPwmExample':
+../src/xtmrctr_pwm_example.c:329:1: warning: label 'err' defined but not used [-Wunused-label]
+ err:
+ ^~~
+../src/xtmrctr_pwm_example.c:179:6: warning: unused variable 'lower' [-Wunused-variable]
+  int lower = 0;
+      ^~~~~
+../src/xtmrctr_pwm_example.c:178:6: warning: unused variable 'upper' [-Wunused-variable]
+  int upper = 65535;
+      ^~~~~
+../src/xtmrctr_pwm_example.c:177:5: warning: unused variable 'DutyCyclef' [-Wunused-variable]
+  u8 DutyCyclef;
+     ^~~~~~~~~~
+../src/xtmrctr_pwm_example.c:175:6: warning: variable 'WaitCount' set but not used [-Wunused-but-set-variable]
+  u64 WaitCount;
+      ^~~~~~~~~
+Finished building: ../src/xtmrctr_pwm_example.c
+ 
+Building target: hw_bsp_xtmrctr_pwm_example_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw_bsp/ps7_cortexa9_0/lib -o "hw_bsp_xtmrctr_pwm_example_1.elf" ./src/xtmrctr_pwm_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hw_bsp_xtmrctr_pwm_example_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size hw_bsp_xtmrctr_pwm_example_1.elf  |tee "hw_bsp_xtmrctr_pwm_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  38320	   2336	  23336	  63992	   f9f8	hw_bsp_xtmrctr_pwm_example_1.elf
+Finished building: hw_bsp_xtmrctr_pwm_example_1.elf.size
+ 
+00:26:13 **** Incremental Build of configuration Debug for project hw_bsp_xtmrctr_pwm_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+00:28:36 **** Auto Build of configuration Debug for project hw_bsp_xtmrctr_pwm_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xtmrctr_pwm_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xtmrctr_pwm_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xtmrctr_pwm_example.d" -MT"src/xtmrctr_pwm_example.o" -o "src/xtmrctr_pwm_example.o" "../src/xtmrctr_pwm_example.c"
+../src/xtmrctr_pwm_example.c: In function 'TmrCtrPwmExample':
+../src/xtmrctr_pwm_example.c:330:1: warning: label 'err' defined but not used [-Wunused-label]
+ err:
+ ^~~
+../src/xtmrctr_pwm_example.c:179:6: warning: unused variable 'lower' [-Wunused-variable]
+  int lower = 0;
+      ^~~~~
+../src/xtmrctr_pwm_example.c:178:6: warning: unused variable 'upper' [-Wunused-variable]
+  int upper = 65535;
+      ^~~~~
+../src/xtmrctr_pwm_example.c:177:5: warning: unused variable 'DutyCyclef' [-Wunused-variable]
+  u8 DutyCyclef;
+     ^~~~~~~~~~
+../src/xtmrctr_pwm_example.c:175:6: warning: variable 'WaitCount' set but not used [-Wunused-but-set-variable]
+  u64 WaitCount;
+      ^~~~~~~~~
+Finished building: ../src/xtmrctr_pwm_example.c
+ 
+Building target: hw_bsp_xtmrctr_pwm_example_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw_bsp/ps7_cortexa9_0/lib -o "hw_bsp_xtmrctr_pwm_example_1.elf" ./src/xtmrctr_pwm_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hw_bsp_xtmrctr_pwm_example_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size hw_bsp_xtmrctr_pwm_example_1.elf  |tee "hw_bsp_xtmrctr_pwm_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  37708	   2336	  23336	  63380	   f794	hw_bsp_xtmrctr_pwm_example_1.elf
+Finished building: hw_bsp_xtmrctr_pwm_example_1.elf.size
+ 
+00:28:52 **** Incremental Build of configuration Debug for project hw_bsp_xtmrctr_pwm_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+00:30:44 **** Auto Build of configuration Debug for project hw_bsp_xtmrctr_pwm_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xtmrctr_pwm_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xtmrctr_pwm_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xtmrctr_pwm_example.d" -MT"src/xtmrctr_pwm_example.o" -o "src/xtmrctr_pwm_example.o" "../src/xtmrctr_pwm_example.c"
+../src/xtmrctr_pwm_example.c: In function 'TmrCtrPwmExample':
+../src/xtmrctr_pwm_example.c:330:1: warning: label 'err' defined but not used [-Wunused-label]
+ err:
+ ^~~
+../src/xtmrctr_pwm_example.c:179:6: warning: unused variable 'lower' [-Wunused-variable]
+  int lower = 0;
+      ^~~~~
+../src/xtmrctr_pwm_example.c:178:6: warning: unused variable 'upper' [-Wunused-variable]
+  int upper = 65535;
+      ^~~~~
+../src/xtmrctr_pwm_example.c:177:5: warning: unused variable 'DutyCyclef' [-Wunused-variable]
+  u8 DutyCyclef;
+     ^~~~~~~~~~
+../src/xtmrctr_pwm_example.c:175:6: warning: variable 'WaitCount' set but not used [-Wunused-but-set-variable]
+  u64 WaitCount;
+      ^~~~~~~~~
+Finished building: ../src/xtmrctr_pwm_example.c
+ 
+Building target: hw_bsp_xtmrctr_pwm_example_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw_bsp/ps7_cortexa9_0/lib -o "hw_bsp_xtmrctr_pwm_example_1.elf" ./src/xtmrctr_pwm_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hw_bsp_xtmrctr_pwm_example_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size hw_bsp_xtmrctr_pwm_example_1.elf  |tee "hw_bsp_xtmrctr_pwm_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  37712	   2336	  23336	  63384	   f798	hw_bsp_xtmrctr_pwm_example_1.elf
+Finished building: hw_bsp_xtmrctr_pwm_example_1.elf.size
+ 
+00:30:51 **** Incremental Build of configuration Debug for project hw_bsp_xtmrctr_pwm_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+00:31:38 **** Auto Build of configuration Debug for project hw_bsp_xtmrctr_pwm_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xtmrctr_pwm_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xtmrctr_pwm_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xtmrctr_pwm_example.d" -MT"src/xtmrctr_pwm_example.o" -o "src/xtmrctr_pwm_example.o" "../src/xtmrctr_pwm_example.c"
+../src/xtmrctr_pwm_example.c: In function 'TmrCtrPwmExample':
+../src/xtmrctr_pwm_example.c:231:18: warning: implicit declaration of function 'rand' [-Wimplicit-function-declaration]
+   int rawData = (rand() % (upper - lower + 1)) + lower;
+                  ^~~~
+../src/xtmrctr_pwm_example.c:330:1: warning: label 'err' defined but not used [-Wunused-label]
+ err:
+ ^~~
+../src/xtmrctr_pwm_example.c:177:5: warning: unused variable 'DutyCyclef' [-Wunused-variable]
+  u8 DutyCyclef;
+     ^~~~~~~~~~
+../src/xtmrctr_pwm_example.c:175:6: warning: variable 'WaitCount' set but not used [-Wunused-but-set-variable]
+  u64 WaitCount;
+      ^~~~~~~~~
+Finished building: ../src/xtmrctr_pwm_example.c
+ 
+Building target: hw_bsp_xtmrctr_pwm_example_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw_bsp/ps7_cortexa9_0/lib -o "hw_bsp_xtmrctr_pwm_example_1.elf" ./src/xtmrctr_pwm_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hw_bsp_xtmrctr_pwm_example_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size hw_bsp_xtmrctr_pwm_example_1.elf  |tee "hw_bsp_xtmrctr_pwm_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  38480	   2336	  23336	  64152	   fa98	hw_bsp_xtmrctr_pwm_example_1.elf
+Finished building: hw_bsp_xtmrctr_pwm_example_1.elf.size
+ 
+00:31:42 **** Incremental Build of configuration Debug for project hw_bsp_xtmrctr_pwm_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+00:33:03 **** Auto Build of configuration Debug for project hw_bsp_xtmrctr_pwm_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xtmrctr_pwm_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xtmrctr_pwm_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xtmrctr_pwm_example.d" -MT"src/xtmrctr_pwm_example.o" -o "src/xtmrctr_pwm_example.o" "../src/xtmrctr_pwm_example.c"
+../src/xtmrctr_pwm_example.c: In function 'TmrCtrPwmExample':
+../src/xtmrctr_pwm_example.c:231:18: warning: implicit declaration of function 'rand' [-Wimplicit-function-declaration]
+   int rawData = (rand() % 50);
+                  ^~~~
+../src/xtmrctr_pwm_example.c:330:1: warning: label 'err' defined but not used [-Wunused-label]
+ err:
+ ^~~
+../src/xtmrctr_pwm_example.c:179:6: warning: unused variable 'lower' [-Wunused-variable]
+  int lower = 0;
+      ^~~~~
+../src/xtmrctr_pwm_example.c:178:6: warning: unused variable 'upper' [-Wunused-variable]
+  int upper = 65535;
+      ^~~~~
+../src/xtmrctr_pwm_example.c:177:5: warning: unused variable 'DutyCyclef' [-Wunused-variable]
+  u8 DutyCyclef;
+     ^~~~~~~~~~
+../src/xtmrctr_pwm_example.c:175:6: warning: variable 'WaitCount' set but not used [-Wunused-but-set-variable]
+  u64 WaitCount;
+      ^~~~~~~~~
+Finished building: ../src/xtmrctr_pwm_example.c
+ 
+Building target: hw_bsp_xtmrctr_pwm_example_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw_bsp/ps7_cortexa9_0/lib -o "hw_bsp_xtmrctr_pwm_example_1.elf" ./src/xtmrctr_pwm_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hw_bsp_xtmrctr_pwm_example_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size hw_bsp_xtmrctr_pwm_example_1.elf  |tee "hw_bsp_xtmrctr_pwm_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  37720	   2336	  23336	  63392	   f7a0	hw_bsp_xtmrctr_pwm_example_1.elf
+Finished building: hw_bsp_xtmrctr_pwm_example_1.elf.size
+ 
+00:33:16 **** Incremental Build of configuration Debug for project hw_bsp_xtmrctr_pwm_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+00:33:51 **** Auto Build of configuration Debug for project hw_bsp_xtmrctr_pwm_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xtmrctr_pwm_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xtmrctr_pwm_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xtmrctr_pwm_example.d" -MT"src/xtmrctr_pwm_example.o" -o "src/xtmrctr_pwm_example.o" "../src/xtmrctr_pwm_example.c"
+../src/xtmrctr_pwm_example.c: In function 'TmrCtrPwmExample':
+../src/xtmrctr_pwm_example.c:231:18: warning: implicit declaration of function 'rand' [-Wimplicit-function-declaration]
+   int rawData = (rand() % upper);
+                  ^~~~
+../src/xtmrctr_pwm_example.c:330:1: warning: label 'err' defined but not used [-Wunused-label]
+ err:
+ ^~~
+../src/xtmrctr_pwm_example.c:179:6: warning: unused variable 'lower' [-Wunused-variable]
+  int lower = 0;
+      ^~~~~
+../src/xtmrctr_pwm_example.c:177:5: warning: unused variable 'DutyCyclef' [-Wunused-variable]
+  u8 DutyCyclef;
+     ^~~~~~~~~~
+../src/xtmrctr_pwm_example.c:175:6: warning: variable 'WaitCount' set but not used [-Wunused-but-set-variable]
+  u64 WaitCount;
+      ^~~~~~~~~
+Finished building: ../src/xtmrctr_pwm_example.c
+ 
+Building target: hw_bsp_xtmrctr_pwm_example_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw_bsp/ps7_cortexa9_0/lib -o "hw_bsp_xtmrctr_pwm_example_1.elf" ./src/xtmrctr_pwm_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hw_bsp_xtmrctr_pwm_example_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size hw_bsp_xtmrctr_pwm_example_1.elf  |tee "hw_bsp_xtmrctr_pwm_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  38424	   2336	  23336	  64096	   fa60	hw_bsp_xtmrctr_pwm_example_1.elf
+Finished building: hw_bsp_xtmrctr_pwm_example_1.elf.size
+ 
+00:33:55 **** Incremental Build of configuration Debug for project hw_bsp_xtmrctr_pwm_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+00:34:39 **** Auto Build of configuration Debug for project hw_bsp_xtmrctr_pwm_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xtmrctr_pwm_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xtmrctr_pwm_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xtmrctr_pwm_example.d" -MT"src/xtmrctr_pwm_example.o" -o "src/xtmrctr_pwm_example.o" "../src/xtmrctr_pwm_example.c"
+../src/xtmrctr_pwm_example.c: In function 'TmrCtrPwmExample':
+../src/xtmrctr_pwm_example.c:229:18: warning: implicit declaration of function 'rand' [-Wimplicit-function-declaration]
+   int rawData = (rand() % 65535);
+                  ^~~~
+../src/xtmrctr_pwm_example.c:328:1: warning: label 'err' defined but not used [-Wunused-label]
+ err:
+ ^~~
+../src/xtmrctr_pwm_example.c:177:5: warning: unused variable 'DutyCyclef' [-Wunused-variable]
+  u8 DutyCyclef;
+     ^~~~~~~~~~
+../src/xtmrctr_pwm_example.c:175:6: warning: variable 'WaitCount' set but not used [-Wunused-but-set-variable]
+  u64 WaitCount;
+      ^~~~~~~~~
+Finished building: ../src/xtmrctr_pwm_example.c
+ 
+Building target: hw_bsp_xtmrctr_pwm_example_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw_bsp/ps7_cortexa9_0/lib -o "hw_bsp_xtmrctr_pwm_example_1.elf" ./src/xtmrctr_pwm_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hw_bsp_xtmrctr_pwm_example_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size hw_bsp_xtmrctr_pwm_example_1.elf  |tee "hw_bsp_xtmrctr_pwm_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  37720	   2336	  23336	  63392	   f7a0	hw_bsp_xtmrctr_pwm_example_1.elf
+Finished building: hw_bsp_xtmrctr_pwm_example_1.elf.size
+ 
+00:34:55 **** Incremental Build of configuration Debug for project hw_bsp_xtmrctr_pwm_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+00:35:25 **** Auto Build of configuration Debug for project hw_bsp_xtmrctr_pwm_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xtmrctr_pwm_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xtmrctr_pwm_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xtmrctr_pwm_example.d" -MT"src/xtmrctr_pwm_example.o" -o "src/xtmrctr_pwm_example.o" "../src/xtmrctr_pwm_example.c"
+../src/xtmrctr_pwm_example.c: In function 'TmrCtrPwmExample':
+../src/xtmrctr_pwm_example.c:229:21: warning: implicit declaration of function 'rand' [-Wimplicit-function-declaration]
+   double rawData = (rand() % 65535);
+                     ^~~~
+../src/xtmrctr_pwm_example.c:328:1: warning: label 'err' defined but not used [-Wunused-label]
+ err:
+ ^~~
+../src/xtmrctr_pwm_example.c:177:5: warning: unused variable 'DutyCyclef' [-Wunused-variable]
+  u8 DutyCyclef;
+     ^~~~~~~~~~
+../src/xtmrctr_pwm_example.c:175:6: warning: variable 'WaitCount' set but not used [-Wunused-but-set-variable]
+  u64 WaitCount;
+      ^~~~~~~~~
+Finished building: ../src/xtmrctr_pwm_example.c
+ 
+Building target: hw_bsp_xtmrctr_pwm_example_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw_bsp/ps7_cortexa9_0/lib -o "hw_bsp_xtmrctr_pwm_example_1.elf" ./src/xtmrctr_pwm_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hw_bsp_xtmrctr_pwm_example_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size hw_bsp_xtmrctr_pwm_example_1.elf  |tee "hw_bsp_xtmrctr_pwm_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  37784	   2336	  23336	  63456	   f7e0	hw_bsp_xtmrctr_pwm_example_1.elf
+Finished building: hw_bsp_xtmrctr_pwm_example_1.elf.size
+ 
+00:35:32 **** Incremental Build of configuration Debug for project hw_bsp_xtmrctr_pwm_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+00:36:20 **** Auto Build of configuration Debug for project hw_bsp_xtmrctr_pwm_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xtmrctr_pwm_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xtmrctr_pwm_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xtmrctr_pwm_example.d" -MT"src/xtmrctr_pwm_example.o" -o "src/xtmrctr_pwm_example.o" "../src/xtmrctr_pwm_example.c"
+../src/xtmrctr_pwm_example.c: In function 'TmrCtrPwmExample':
+../src/xtmrctr_pwm_example.c:229:21: warning: implicit declaration of function 'rand' [-Wimplicit-function-declaration]
+   double rawData = (rand() % 65535);
+                     ^~~~
+../src/xtmrctr_pwm_example.c:328:1: warning: label 'err' defined but not used [-Wunused-label]
+ err:
+ ^~~
+../src/xtmrctr_pwm_example.c:177:5: warning: unused variable 'DutyCyclef' [-Wunused-variable]
+  u8 DutyCyclef;
+     ^~~~~~~~~~
+../src/xtmrctr_pwm_example.c:175:6: warning: variable 'WaitCount' set but not used [-Wunused-but-set-variable]
+  u64 WaitCount;
+      ^~~~~~~~~
+Finished building: ../src/xtmrctr_pwm_example.c
+ 
+Building target: hw_bsp_xtmrctr_pwm_example_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw_bsp/ps7_cortexa9_0/lib -o "hw_bsp_xtmrctr_pwm_example_1.elf" ./src/xtmrctr_pwm_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hw_bsp_xtmrctr_pwm_example_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size hw_bsp_xtmrctr_pwm_example_1.elf  |tee "hw_bsp_xtmrctr_pwm_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  37784	   2336	  23336	  63456	   f7e0	hw_bsp_xtmrctr_pwm_example_1.elf
+Finished building: hw_bsp_xtmrctr_pwm_example_1.elf.size
+ 
+00:36:26 **** Incremental Build of configuration Debug for project hw_bsp_xtmrctr_pwm_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+00:36:54 **** Incremental Build of configuration Debug for project hw_bsp_xtmrctr_pwm_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xtmrctr_pwm_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xtmrctr_pwm_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xtmrctr_pwm_example.d" -MT"src/xtmrctr_pwm_example.o" -o "src/xtmrctr_pwm_example.o" "../src/xtmrctr_pwm_example.c"
+../src/xtmrctr_pwm_example.c: In function 'TmrCtrPwmExample':
+../src/xtmrctr_pwm_example.c:228:21: warning: implicit declaration of function 'rand' [-Wimplicit-function-declaration]
+   double rawData = (rand() % 65535);
+                     ^~~~
+../src/xtmrctr_pwm_example.c:327:1: warning: label 'err' defined but not used [-Wunused-label]
+ err:
+ ^~~
+../src/xtmrctr_pwm_example.c:175:6: warning: variable 'WaitCount' set but not used [-Wunused-but-set-variable]
+  u64 WaitCount;
+      ^~~~~~~~~
+Finished building: ../src/xtmrctr_pwm_example.c
+ 
+Building target: hw_bsp_xtmrctr_pwm_example_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw_bsp/ps7_cortexa9_0/lib -o "hw_bsp_xtmrctr_pwm_example_1.elf" ./src/xtmrctr_pwm_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hw_bsp_xtmrctr_pwm_example_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size hw_bsp_xtmrctr_pwm_example_1.elf  |tee "hw_bsp_xtmrctr_pwm_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  37784	   2336	  23336	  63456	   f7e0	hw_bsp_xtmrctr_pwm_example_1.elf
+Finished building: hw_bsp_xtmrctr_pwm_example_1.elf.size
+ 
+00:37:37 **** Incremental Build of configuration Debug for project hw_bsp_xtmrctr_pwm_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+00:38:11 **** Incremental Build of configuration Debug for project hw_bsp_xtmrctr_pwm_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+00:40:07 **** Auto Build of configuration Debug for project hw_bsp_xtmrctr_pwm_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xtmrctr_pwm_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xtmrctr_pwm_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xtmrctr_pwm_example.d" -MT"src/xtmrctr_pwm_example.o" -o "src/xtmrctr_pwm_example.o" "../src/xtmrctr_pwm_example.c"
+../src/xtmrctr_pwm_example.c: In function 'TmrCtrPwmExample':
+../src/xtmrctr_pwm_example.c:228:21: warning: implicit declaration of function 'rand' [-Wimplicit-function-declaration]
+   double rawData = (rand() % 65535);
+                     ^~~~
+../src/xtmrctr_pwm_example.c:253:2: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  printf("end");
+  ^~~~~~
+../src/xtmrctr_pwm_example.c:253:2: warning: incompatible implicit declaration of built-in function 'printf'
+../src/xtmrctr_pwm_example.c:253:2: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/xtmrctr_pwm_example.c:65:1:
++#include <stdio.h>
+ #endif
+../src/xtmrctr_pwm_example.c:253:2:
+  printf("end");
+  ^~~~~~
+../src/xtmrctr_pwm_example.c:327:1: warning: label 'err' defined but not used [-Wunused-label]
+ err:
+ ^~~
+../src/xtmrctr_pwm_example.c:175:6: warning: variable 'WaitCount' set but not used [-Wunused-but-set-variable]
+  u64 WaitCount;
+      ^~~~~~~~~
+Finished building: ../src/xtmrctr_pwm_example.c
+ 
+Building target: hw_bsp_xtmrctr_pwm_example_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw_bsp/ps7_cortexa9_0/lib -o "hw_bsp_xtmrctr_pwm_example_1.elf" ./src/xtmrctr_pwm_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hw_bsp_xtmrctr_pwm_example_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size hw_bsp_xtmrctr_pwm_example_1.elf  |tee "hw_bsp_xtmrctr_pwm_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  66556	   3376	  23392	  93324	  16c8c	hw_bsp_xtmrctr_pwm_example_1.elf
+Finished building: hw_bsp_xtmrctr_pwm_example_1.elf.size
+ 
+00:40:53 **** Incremental Build of configuration Debug for project hw_bsp_xtmrctr_pwm_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+00:41:56 **** Auto Build of configuration Debug for project hw_bsp_xtmrctr_pwm_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xtmrctr_pwm_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xtmrctr_pwm_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xtmrctr_pwm_example.d" -MT"src/xtmrctr_pwm_example.o" -o "src/xtmrctr_pwm_example.o" "../src/xtmrctr_pwm_example.c"
+../src/xtmrctr_pwm_example.c: In function 'TmrCtrPwmExample':
+../src/xtmrctr_pwm_example.c:228:21: warning: implicit declaration of function 'rand' [-Wimplicit-function-declaration]
+   double rawData = (rand() % 65535);
+                     ^~~~
+../src/xtmrctr_pwm_example.c:326:1: warning: label 'err' defined but not used [-Wunused-label]
+ err:
+ ^~~
+../src/xtmrctr_pwm_example.c:175:6: warning: variable 'WaitCount' set but not used [-Wunused-but-set-variable]
+  u64 WaitCount;
+      ^~~~~~~~~
+Finished building: ../src/xtmrctr_pwm_example.c
+ 
+Building target: hw_bsp_xtmrctr_pwm_example_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw_bsp/ps7_cortexa9_0/lib -o "hw_bsp_xtmrctr_pwm_example_1.elf" ./src/xtmrctr_pwm_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hw_bsp_xtmrctr_pwm_example_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size hw_bsp_xtmrctr_pwm_example_1.elf  |tee "hw_bsp_xtmrctr_pwm_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  37784	   2336	  23336	  63456	   f7e0	hw_bsp_xtmrctr_pwm_example_1.elf
+Finished building: hw_bsp_xtmrctr_pwm_example_1.elf.size
+ 
+00:42:02 **** Incremental Build of configuration Debug for project hw_bsp_xtmrctr_pwm_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+00:43:05 **** Auto Build of configuration Debug for project hw_bsp_xtmrctr_pwm_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xtmrctr_pwm_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xtmrctr_pwm_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xtmrctr_pwm_example.d" -MT"src/xtmrctr_pwm_example.o" -o "src/xtmrctr_pwm_example.o" "../src/xtmrctr_pwm_example.c"
+../src/xtmrctr_pwm_example.c: In function 'TmrCtrPwmExample':
+../src/xtmrctr_pwm_example.c:228:21: warning: implicit declaration of function 'rand' [-Wimplicit-function-declaration]
+   double rawData = (rand() % 65535);
+                     ^~~~
+../src/xtmrctr_pwm_example.c:326:1: warning: label 'err' defined but not used [-Wunused-label]
+ err:
+ ^~~
+../src/xtmrctr_pwm_example.c:175:6: warning: variable 'WaitCount' set but not used [-Wunused-but-set-variable]
+  u64 WaitCount;
+      ^~~~~~~~~
+Finished building: ../src/xtmrctr_pwm_example.c
+ 
+Building target: hw_bsp_xtmrctr_pwm_example_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw_bsp/ps7_cortexa9_0/lib -o "hw_bsp_xtmrctr_pwm_example_1.elf" ./src/xtmrctr_pwm_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hw_bsp_xtmrctr_pwm_example_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size hw_bsp_xtmrctr_pwm_example_1.elf  |tee "hw_bsp_xtmrctr_pwm_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  37720	   2336	  23336	  63392	   f7a0	hw_bsp_xtmrctr_pwm_example_1.elf
+Finished building: hw_bsp_xtmrctr_pwm_example_1.elf.size
+ 
+00:43:10 **** Incremental Build of configuration Debug for project hw_bsp_xtmrctr_pwm_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+00:45:28 **** Auto Build of configuration Debug for project hw_bsp_xtmrctr_pwm_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xtmrctr_pwm_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xtmrctr_pwm_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xtmrctr_pwm_example.d" -MT"src/xtmrctr_pwm_example.o" -o "src/xtmrctr_pwm_example.o" "../src/xtmrctr_pwm_example.c"
+../src/xtmrctr_pwm_example.c: In function 'TmrCtrPwmExample':
+../src/xtmrctr_pwm_example.c:228:21: warning: implicit declaration of function 'rand' [-Wimplicit-function-declaration]
+   double rawData = (rand() % 65535);
+                     ^~~~
+../src/xtmrctr_pwm_example.c:250:5: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+     printf("Number of Cycles: %d \r\n");
+     ^~~~~~
+../src/xtmrctr_pwm_example.c:250:5: warning: incompatible implicit declaration of built-in function 'printf'
+../src/xtmrctr_pwm_example.c:250:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/xtmrctr_pwm_example.c:65:1:
++#include <stdio.h>
+ #endif
+../src/xtmrctr_pwm_example.c:250:5:
+     printf("Number of Cycles: %d \r\n");
+     ^~~~~~
+../src/xtmrctr_pwm_example.c:250:32: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+     printf("Number of Cycles: %d \r\n");
+                               ~^
+../src/xtmrctr_pwm_example.c:327:1: warning: label 'err' defined but not used [-Wunused-label]
+ err:
+ ^~~
+../src/xtmrctr_pwm_example.c:175:6: warning: variable 'WaitCount' set but not used [-Wunused-but-set-variable]
+  u64 WaitCount;
+      ^~~~~~~~~
+Finished building: ../src/xtmrctr_pwm_example.c
+ 
+Building target: hw_bsp_xtmrctr_pwm_example_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw_bsp/ps7_cortexa9_0/lib -o "hw_bsp_xtmrctr_pwm_example_1.elf" ./src/xtmrctr_pwm_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hw_bsp_xtmrctr_pwm_example_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size hw_bsp_xtmrctr_pwm_example_1.elf  |tee "hw_bsp_xtmrctr_pwm_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  66516	   3376	  23392	  93284	  16c64	hw_bsp_xtmrctr_pwm_example_1.elf
+Finished building: hw_bsp_xtmrctr_pwm_example_1.elf.size
+ 
+00:45:32 **** Incremental Build of configuration Debug for project hw_bsp_xtmrctr_pwm_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+00:46:40 **** Auto Build of configuration Debug for project hw_bsp_xtmrctr_pwm_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xtmrctr_pwm_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xtmrctr_pwm_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xtmrctr_pwm_example.d" -MT"src/xtmrctr_pwm_example.o" -o "src/xtmrctr_pwm_example.o" "../src/xtmrctr_pwm_example.c"
+../src/xtmrctr_pwm_example.c: In function 'TmrCtrPwmExample':
+../src/xtmrctr_pwm_example.c:228:21: warning: implicit declaration of function 'rand' [-Wimplicit-function-declaration]
+   double rawData = (rand() % 65535);
+                     ^~~~
+../src/xtmrctr_pwm_example.c:326:1: warning: label 'err' defined but not used [-Wunused-label]
+ err:
+ ^~~
+../src/xtmrctr_pwm_example.c:175:6: warning: variable 'WaitCount' set but not used [-Wunused-but-set-variable]
+  u64 WaitCount;
+      ^~~~~~~~~
+Finished building: ../src/xtmrctr_pwm_example.c
+ 
+Building target: hw_bsp_xtmrctr_pwm_example_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw_bsp/ps7_cortexa9_0/lib -o "hw_bsp_xtmrctr_pwm_example_1.elf" ./src/xtmrctr_pwm_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hw_bsp_xtmrctr_pwm_example_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size hw_bsp_xtmrctr_pwm_example_1.elf  |tee "hw_bsp_xtmrctr_pwm_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  37720	   2336	  23336	  63392	   f7a0	hw_bsp_xtmrctr_pwm_example_1.elf
+Finished building: hw_bsp_xtmrctr_pwm_example_1.elf.size
+ 
+00:46:43 **** Incremental Build of configuration Debug for project hw_bsp_xtmrctr_pwm_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+00:47:21 **** Auto Build of configuration Debug for project hw_bsp_xtmrctr_pwm_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xtmrctr_pwm_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xtmrctr_pwm_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xtmrctr_pwm_example.d" -MT"src/xtmrctr_pwm_example.o" -o "src/xtmrctr_pwm_example.o" "../src/xtmrctr_pwm_example.c"
+../src/xtmrctr_pwm_example.c: In function 'TmrCtrPwmExample':
+../src/xtmrctr_pwm_example.c:228:21: warning: implicit declaration of function 'rand' [-Wimplicit-function-declaration]
+   double rawData = (rand() % 65535);
+                     ^~~~
+../src/xtmrctr_pwm_example.c:326:1: warning: label 'err' defined but not used [-Wunused-label]
+ err:
+ ^~~
+../src/xtmrctr_pwm_example.c:175:6: warning: variable 'WaitCount' set but not used [-Wunused-but-set-variable]
+  u64 WaitCount;
+      ^~~~~~~~~
+Finished building: ../src/xtmrctr_pwm_example.c
+ 
+Building target: hw_bsp_xtmrctr_pwm_example_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw_bsp/ps7_cortexa9_0/lib -o "hw_bsp_xtmrctr_pwm_example_1.elf" ./src/xtmrctr_pwm_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hw_bsp_xtmrctr_pwm_example_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size hw_bsp_xtmrctr_pwm_example_1.elf  |tee "hw_bsp_xtmrctr_pwm_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  37760	   2336	  23336	  63432	   f7c8	hw_bsp_xtmrctr_pwm_example_1.elf
+Finished building: hw_bsp_xtmrctr_pwm_example_1.elf.size
+ 
+00:47:28 **** Incremental Build of configuration Debug for project hw_bsp_xtmrctr_pwm_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+00:47:46 **** Auto Build of configuration Debug for project hw_bsp_xtmrctr_pwm_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xtmrctr_pwm_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xtmrctr_pwm_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xtmrctr_pwm_example.d" -MT"src/xtmrctr_pwm_example.o" -o "src/xtmrctr_pwm_example.o" "../src/xtmrctr_pwm_example.c"
+../src/xtmrctr_pwm_example.c: In function 'TmrCtrPwmExample':
+../src/xtmrctr_pwm_example.c:228:21: warning: implicit declaration of function 'rand' [-Wimplicit-function-declaration]
+   double rawData = (rand() % 65535);
+                     ^~~~
+../src/xtmrctr_pwm_example.c:326:1: warning: label 'err' defined but not used [-Wunused-label]
+ err:
+ ^~~
+../src/xtmrctr_pwm_example.c:175:6: warning: variable 'WaitCount' set but not used [-Wunused-but-set-variable]
+  u64 WaitCount;
+      ^~~~~~~~~
+Finished building: ../src/xtmrctr_pwm_example.c
+ 
+Building target: hw_bsp_xtmrctr_pwm_example_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw_bsp/ps7_cortexa9_0/lib -o "hw_bsp_xtmrctr_pwm_example_1.elf" ./src/xtmrctr_pwm_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hw_bsp_xtmrctr_pwm_example_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size hw_bsp_xtmrctr_pwm_example_1.elf  |tee "hw_bsp_xtmrctr_pwm_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  37744	   2336	  23336	  63416	   f7b8	hw_bsp_xtmrctr_pwm_example_1.elf
+Finished building: hw_bsp_xtmrctr_pwm_example_1.elf.size
+ 
+00:47:49 **** Incremental Build of configuration Debug for project hw_bsp_xtmrctr_pwm_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+00:50:48 **** Auto Build of configuration Debug for project hw_bsp_xtmrctr_pwm_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xtmrctr_pwm_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xtmrctr_pwm_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xtmrctr_pwm_example.d" -MT"src/xtmrctr_pwm_example.o" -o "src/xtmrctr_pwm_example.o" "../src/xtmrctr_pwm_example.c"
+../src/xtmrctr_pwm_example.c: In function 'TmrCtrPwmExample':
+../src/xtmrctr_pwm_example.c:229:21: warning: implicit declaration of function 'rand' [-Wimplicit-function-declaration]
+   double rawData = (rand() % 65535);
+                     ^~~~
+../src/xtmrctr_pwm_example.c:328:1: warning: label 'err' defined but not used [-Wunused-label]
+ err:
+ ^~~
+../src/xtmrctr_pwm_example.c:175:6: warning: variable 'WaitCount' set but not used [-Wunused-but-set-variable]
+  u64 WaitCount;
+      ^~~~~~~~~
+Finished building: ../src/xtmrctr_pwm_example.c
+ 
+Building target: hw_bsp_xtmrctr_pwm_example_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw_bsp/ps7_cortexa9_0/lib -o "hw_bsp_xtmrctr_pwm_example_1.elf" ./src/xtmrctr_pwm_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hw_bsp_xtmrctr_pwm_example_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size hw_bsp_xtmrctr_pwm_example_1.elf  |tee "hw_bsp_xtmrctr_pwm_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  37756	   2336	  23336	  63428	   f7c4	hw_bsp_xtmrctr_pwm_example_1.elf
+Finished building: hw_bsp_xtmrctr_pwm_example_1.elf.size
+ 
+00:50:58 **** Incremental Build of configuration Debug for project hw_bsp_xtmrctr_pwm_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+00:51:33 **** Auto Build of configuration Debug for project hw_bsp_xtmrctr_pwm_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xtmrctr_pwm_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xtmrctr_pwm_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xtmrctr_pwm_example.d" -MT"src/xtmrctr_pwm_example.o" -o "src/xtmrctr_pwm_example.o" "../src/xtmrctr_pwm_example.c"
+../src/xtmrctr_pwm_example.c: In function 'TmrCtrPwmExample':
+../src/xtmrctr_pwm_example.c:229:21: warning: implicit declaration of function 'rand' [-Wimplicit-function-declaration]
+   double rawData = (rand() % 65535);
+                     ^~~~
+../src/xtmrctr_pwm_example.c:329:1: warning: label 'err' defined but not used [-Wunused-label]
+ err:
+ ^~~
+../src/xtmrctr_pwm_example.c:175:6: warning: variable 'WaitCount' set but not used [-Wunused-but-set-variable]
+  u64 WaitCount;
+      ^~~~~~~~~
+Finished building: ../src/xtmrctr_pwm_example.c
+ 
+Building target: hw_bsp_xtmrctr_pwm_example_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw_bsp/ps7_cortexa9_0/lib -o "hw_bsp_xtmrctr_pwm_example_1.elf" ./src/xtmrctr_pwm_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hw_bsp_xtmrctr_pwm_example_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size hw_bsp_xtmrctr_pwm_example_1.elf  |tee "hw_bsp_xtmrctr_pwm_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  37756	   2336	  23336	  63428	   f7c4	hw_bsp_xtmrctr_pwm_example_1.elf
+Finished building: hw_bsp_xtmrctr_pwm_example_1.elf.size
+ 
+00:51:48 **** Incremental Build of configuration Debug for project hw_bsp_xtmrctr_pwm_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+00:52:20 **** Incremental Build of configuration Debug for project hw_bsp_xtmrctr_pwm_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+00:57:06 **** Auto Build of configuration Debug for project hw_bsp_xtmrctr_pwm_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xtmrctr_pwm_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xtmrctr_pwm_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xtmrctr_pwm_example.d" -MT"src/xtmrctr_pwm_example.o" -o "src/xtmrctr_pwm_example.o" "../src/xtmrctr_pwm_example.c"
+../src/xtmrctr_pwm_example.c: In function 'TmrCtrPwmExample':
+../src/xtmrctr_pwm_example.c:229:21: warning: implicit declaration of function 'rand' [-Wimplicit-function-declaration]
+   double rawData = (rand() % 65535);
+                     ^~~~
+../src/xtmrctr_pwm_example.c:329:1: warning: label 'err' defined but not used [-Wunused-label]
+ err:
+ ^~~
+../src/xtmrctr_pwm_example.c:175:6: warning: variable 'WaitCount' set but not used [-Wunused-but-set-variable]
+  u64 WaitCount;
+      ^~~~~~~~~
+Finished building: ../src/xtmrctr_pwm_example.c
+ 
+Building target: hw_bsp_xtmrctr_pwm_example_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw_bsp/ps7_cortexa9_0/lib -o "hw_bsp_xtmrctr_pwm_example_1.elf" ./src/xtmrctr_pwm_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hw_bsp_xtmrctr_pwm_example_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size hw_bsp_xtmrctr_pwm_example_1.elf  |tee "hw_bsp_xtmrctr_pwm_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  37756	   2336	  23336	  63428	   f7c4	hw_bsp_xtmrctr_pwm_example_1.elf
+Finished building: hw_bsp_xtmrctr_pwm_example_1.elf.size
+ 
+00:57:10 **** Incremental Build of configuration Debug for project hw_bsp_xtmrctr_pwm_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+00:58:58 **** Auto Build of configuration Debug for project hw_bsp_xtmrctr_pwm_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xtmrctr_pwm_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xtmrctr_pwm_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xtmrctr_pwm_example.d" -MT"src/xtmrctr_pwm_example.o" -o "src/xtmrctr_pwm_example.o" "../src/xtmrctr_pwm_example.c"
+../src/xtmrctr_pwm_example.c: In function 'TmrCtrPwmExample':
+../src/xtmrctr_pwm_example.c:229:21: warning: implicit declaration of function 'rand' [-Wimplicit-function-declaration]
+   double rawData = (rand() % 65535);
+                     ^~~~
+../src/xtmrctr_pwm_example.c:255:3: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+   usleep(100000);
+   ^~~~~~
+../src/xtmrctr_pwm_example.c:330:1: warning: label 'err' defined but not used [-Wunused-label]
+ err:
+ ^~~
+../src/xtmrctr_pwm_example.c:175:6: warning: variable 'WaitCount' set but not used [-Wunused-but-set-variable]
+  u64 WaitCount;
+      ^~~~~~~~~
+Finished building: ../src/xtmrctr_pwm_example.c
+ 
+Building target: hw_bsp_xtmrctr_pwm_example_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw_bsp/ps7_cortexa9_0/lib -o "hw_bsp_xtmrctr_pwm_example_1.elf" ./src/xtmrctr_pwm_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hw_bsp_xtmrctr_pwm_example_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size hw_bsp_xtmrctr_pwm_example_1.elf  |tee "hw_bsp_xtmrctr_pwm_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  37948	   2336	  23336	  63620	   f884	hw_bsp_xtmrctr_pwm_example_1.elf
+Finished building: hw_bsp_xtmrctr_pwm_example_1.elf.size
+ 
+00:59:01 **** Incremental Build of configuration Debug for project hw_bsp_xtmrctr_pwm_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+01:00:18 **** Auto Build of configuration Debug for project hw ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/Main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.c"
+../src/Main.c: In function 'main':
+../src/Main.c:82:21: warning: passing argument 1 of 'XTmrCtr_Initialize' from incompatible pointer type [-Wincompatible-pointer-types]
+  XTmrCtr_Initialize(&InterruptController, TMRCTR_DEVICE_ID);
+                     ^~~~~~~~~~~~~~~~~~~~
+In file included from ../src/Main.c:17:
+../../hw_bsp/ps7_cortexa9_0/include/xtmrctr.h:289:34: note: expected 'XTmrCtr *' {aka 'struct <anonymous> *'} but argument is of type 'XScuGic *' {aka 'struct <anonymous> *'}
+ int XTmrCtr_Initialize(XTmrCtr * InstancePtr, u16 DeviceId);
+                        ~~~~~~~~~~^~~~~~~~~~~
+../src/Main.c: At top level:
+../src/Main.c:353:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ setMotorPWM(int rawData){
+ ^~~~~~~~~~~
+../src/Main.c:353:1: warning: conflicting types for 'setMotorPWM'
+../src/Main.c:58:6: note: previous declaration of 'setMotorPWM' was here
+ void setMotorPWM(int rawData);
+      ^~~~~~~~~~~
+../src/Main.c: In function 'setMotorPWM':
+../src/Main.c:390:9: warning: 'return' with a value, in function returning void
+  return 0;
+         ^
+../src/Main.c:353:1: note: declared here
+ setMotorPWM(int rawData){
+ ^~~~~~~~~~~
+../src/Main.c:361:8: warning: unused variable 'DutyCyclef' [-Wunused-variable]
+  float DutyCyclef;
+        ^~~~~~~~~~
+../src/Main.c:360:6: warning: variable 'WaitCount' set but not used [-Wunused-but-set-variable]
+  u64 WaitCount;
+      ^~~~~~~~~
+../src/Main.c:359:6: warning: variable 'HighTime' set but not used [-Wunused-but-set-variable]
+  u32 HighTime;
+      ^~~~~~~~
+../src/Main.c:358:6: warning: variable 'Period' set but not used [-Wunused-but-set-variable]
+  u32 Period;
+      ^~~~~~
+../src/Main.c: At top level:
+../src/Main.c:394:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ setBuzzerPWM(int rawData){
+ ^~~~~~~~~~~~
+../src/Main.c:394:1: warning: conflicting types for 'setBuzzerPWM'
+../src/Main.c:59:6: note: previous declaration of 'setBuzzerPWM' was here
+ void setBuzzerPWM(int rawData);
+      ^~~~~~~~~~~~
+../src/Main.c: In function 'setBuzzerPWM':
+../src/Main.c:401:6: warning: variable 'WaitCount' set but not used [-Wunused-but-set-variable]
+  u64 WaitCount;
+      ^~~~~~~~~
+At top level:
+../src/Main.c:340:13: warning: 'TimerCounterHandler' defined but not used [-Wunused-function]
+ static void TimerCounterHandler(void *CallBackRef, u8 TmrCtrNumber)
+             ^~~~~~~~~~~~~~~~~~~
+../src/Main.c:330:6: warning: 'TmrCtrDisableIntr' defined but not used [-Wunused-function]
+ void TmrCtrDisableIntr(INTC *IntcInstancePtr, u16 IntrId)
+      ^~~~~~~~~~~~~~~~~
+../src/Main.c:238:12: warning: 'TmrCtrSetupIntrSystem' defined but not used [-Wunused-function]
+ static int TmrCtrSetupIntrSystem(INTC *IntcInstancePtr,
+            ^~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/Main.c
+ 
+Building target: hw.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw_bsp/ps7_cortexa9_0/lib -o "hw.elf" ./src/Main.o ./src/PWM_generator.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+/tools/Xilinx/SDK/2019.1/gnu/aarch32/lin/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld: ./src/PWM_generator.o: in function `main':
+/home/zanpoole/School/EE316/Interrupt/Interrupt.sdk/hw/Debug/../src/PWM_generator.c:44: multiple definition of `main'; ./src/Main.o:/home/zanpoole/School/EE316/Interrupt/Interrupt.sdk/hw/Debug/../src/Main.c:76: first defined here
+collect2: error: ld returned 1 exit status
+make: *** [makefile:41: hw.elf] Error 1
+01:00:18 **** Auto Build of configuration Debug for project hw_bsp_xtmrctr_pwm_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xtmrctr_pwm_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xtmrctr_pwm_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xtmrctr_pwm_example.d" -MT"src/xtmrctr_pwm_example.o" -o "src/xtmrctr_pwm_example.o" "../src/xtmrctr_pwm_example.c"
+../src/xtmrctr_pwm_example.c: In function 'TmrCtrPwmExample':
+../src/xtmrctr_pwm_example.c:229:21: warning: implicit declaration of function 'rand' [-Wimplicit-function-declaration]
+   double rawData = (rand() % 65535);
+                     ^~~~
+../src/xtmrctr_pwm_example.c:254:3: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+   usleep(100000);
+   ^~~~~~
+../src/xtmrctr_pwm_example.c:329:1: warning: label 'err' defined but not used [-Wunused-label]
+ err:
+ ^~~
+../src/xtmrctr_pwm_example.c:175:6: warning: variable 'WaitCount' set but not used [-Wunused-but-set-variable]
+  u64 WaitCount;
+      ^~~~~~~~~
+Finished building: ../src/xtmrctr_pwm_example.c
+ 
+Building target: hw_bsp_xtmrctr_pwm_example_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw_bsp/ps7_cortexa9_0/lib -o "hw_bsp_xtmrctr_pwm_example_1.elf" ./src/xtmrctr_pwm_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hw_bsp_xtmrctr_pwm_example_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size hw_bsp_xtmrctr_pwm_example_1.elf  |tee "hw_bsp_xtmrctr_pwm_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  38652	   2336	  23336	  64324	   fb44	hw_bsp_xtmrctr_pwm_example_1.elf
+Finished building: hw_bsp_xtmrctr_pwm_example_1.elf.size
+ 
+01:00:21 **** Incremental Build of configuration Debug for project hw_bsp_xtmrctr_pwm_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+01:01:08 **** Auto Build of configuration Debug for project hw ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/Main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.c"
+../src/Main.c: In function 'main':
+../src/Main.c:82:21: warning: passing argument 1 of 'XTmrCtr_Initialize' from incompatible pointer type [-Wincompatible-pointer-types]
+  XTmrCtr_Initialize(&InterruptController, TMRCTR_DEVICE_ID);
+                     ^~~~~~~~~~~~~~~~~~~~
+In file included from ../src/Main.c:17:
+../../hw_bsp/ps7_cortexa9_0/include/xtmrctr.h:289:34: note: expected 'XTmrCtr *' {aka 'struct <anonymous> *'} but argument is of type 'XScuGic *' {aka 'struct <anonymous> *'}
+ int XTmrCtr_Initialize(XTmrCtr * InstancePtr, u16 DeviceId);
+                        ~~~~~~~~~~^~~~~~~~~~~
+../src/Main.c: At top level:
+../src/Main.c:353:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ setMotorPWM(int rawData){
+ ^~~~~~~~~~~
+../src/Main.c:353:1: warning: conflicting types for 'setMotorPWM'
+../src/Main.c:58:6: note: previous declaration of 'setMotorPWM' was here
+ void setMotorPWM(int rawData);
+      ^~~~~~~~~~~
+../src/Main.c: In function 'setMotorPWM':
+../src/Main.c:390:9: warning: 'return' with a value, in function returning void
+  return 0;
+         ^
+../src/Main.c:353:1: note: declared here
+ setMotorPWM(int rawData){
+ ^~~~~~~~~~~
+../src/Main.c:361:8: warning: unused variable 'DutyCyclef' [-Wunused-variable]
+  float DutyCyclef;
+        ^~~~~~~~~~
+../src/Main.c:360:6: warning: variable 'WaitCount' set but not used [-Wunused-but-set-variable]
+  u64 WaitCount;
+      ^~~~~~~~~
+../src/Main.c:359:6: warning: variable 'HighTime' set but not used [-Wunused-but-set-variable]
+  u32 HighTime;
+      ^~~~~~~~
+../src/Main.c:358:6: warning: variable 'Period' set but not used [-Wunused-but-set-variable]
+  u32 Period;
+      ^~~~~~
+../src/Main.c: At top level:
+../src/Main.c:394:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ setBuzzerPWM(int rawData){
+ ^~~~~~~~~~~~
+../src/Main.c:394:1: warning: conflicting types for 'setBuzzerPWM'
+../src/Main.c:59:6: note: previous declaration of 'setBuzzerPWM' was here
+ void setBuzzerPWM(int rawData);
+      ^~~~~~~~~~~~
+../src/Main.c: In function 'setBuzzerPWM':
+../src/Main.c:401:6: warning: variable 'WaitCount' set but not used [-Wunused-but-set-variable]
+  u64 WaitCount;
+      ^~~~~~~~~
+At top level:
+../src/Main.c:340:13: warning: 'TimerCounterHandler' defined but not used [-Wunused-function]
+ static void TimerCounterHandler(void *CallBackRef, u8 TmrCtrNumber)
+             ^~~~~~~~~~~~~~~~~~~
+../src/Main.c:330:6: warning: 'TmrCtrDisableIntr' defined but not used [-Wunused-function]
+ void TmrCtrDisableIntr(INTC *IntcInstancePtr, u16 IntrId)
+      ^~~~~~~~~~~~~~~~~
+../src/Main.c:238:12: warning: 'TmrCtrSetupIntrSystem' defined but not used [-Wunused-function]
+ static int TmrCtrSetupIntrSystem(INTC *IntcInstancePtr,
+            ^~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/Main.c
+ 
+Building target: hw.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw_bsp/ps7_cortexa9_0/lib -o "hw.elf" ./src/Main.o ./src/PWM_generator.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+/tools/Xilinx/SDK/2019.1/gnu/aarch32/lin/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld: ./src/PWM_generator.o: in function `main':
+/home/zanpoole/School/EE316/Interrupt/Interrupt.sdk/hw/Debug/../src/PWM_generator.c:44: multiple definition of `main'; ./src/Main.o:/home/zanpoole/School/EE316/Interrupt/Interrupt.sdk/hw/Debug/../src/Main.c:76: first defined here
+collect2: error: ld returned 1 exit status
+make: *** [makefile:41: hw.elf] Error 1
+01:01:09 **** Auto Build of configuration Debug for project hw_bsp_xtmrctr_pwm_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xtmrctr_pwm_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xtmrctr_pwm_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xtmrctr_pwm_example.d" -MT"src/xtmrctr_pwm_example.o" -o "src/xtmrctr_pwm_example.o" "../src/xtmrctr_pwm_example.c"
+../src/xtmrctr_pwm_example.c: In function 'TmrCtrPwmExample':
+../src/xtmrctr_pwm_example.c:229:21: warning: implicit declaration of function 'rand' [-Wimplicit-function-declaration]
+   double rawData = (rand() % 65535);
+                     ^~~~
+../src/xtmrctr_pwm_example.c:253:4: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+    usleep(100000);
+    ^~~~~~
+../src/xtmrctr_pwm_example.c:328:1: warning: label 'err' defined but not used [-Wunused-label]
+ err:
+ ^~~
+../src/xtmrctr_pwm_example.c:224:6: warning: unused variable 'count' [-Wunused-variable]
+  int count = 0;
+      ^~~~~
+../src/xtmrctr_pwm_example.c:175:6: warning: variable 'WaitCount' set but not used [-Wunused-but-set-variable]
+  u64 WaitCount;
+      ^~~~~~~~~
+Finished building: ../src/xtmrctr_pwm_example.c
+ 
+Building target: hw_bsp_xtmrctr_pwm_example_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw_bsp/ps7_cortexa9_0/lib -o "hw_bsp_xtmrctr_pwm_example_1.elf" ./src/xtmrctr_pwm_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hw_bsp_xtmrctr_pwm_example_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size hw_bsp_xtmrctr_pwm_example_1.elf  |tee "hw_bsp_xtmrctr_pwm_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  37912	   2336	  23336	  63584	   f860	hw_bsp_xtmrctr_pwm_example_1.elf
+Finished building: hw_bsp_xtmrctr_pwm_example_1.elf.size
+ 
+01:01:13 **** Incremental Build of configuration Debug for project hw_bsp_xtmrctr_pwm_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+01:02:03 **** Auto Build of configuration Debug for project hw_bsp_xtmrctr_pwm_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xtmrctr_pwm_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xtmrctr_pwm_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xtmrctr_pwm_example.d" -MT"src/xtmrctr_pwm_example.o" -o "src/xtmrctr_pwm_example.o" "../src/xtmrctr_pwm_example.c"
+../src/xtmrctr_pwm_example.c: In function 'TmrCtrPwmExample':
+../src/xtmrctr_pwm_example.c:229:21: warning: implicit declaration of function 'rand' [-Wimplicit-function-declaration]
+   double rawData = (rand() % 65535);
+                     ^~~~
+../src/xtmrctr_pwm_example.c:253:4: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+    usleep(1000000);
+    ^~~~~~
+../src/xtmrctr_pwm_example.c:328:1: warning: label 'err' defined but not used [-Wunused-label]
+ err:
+ ^~~
+../src/xtmrctr_pwm_example.c:224:6: warning: unused variable 'count' [-Wunused-variable]
+  int count = 0;
+      ^~~~~
+../src/xtmrctr_pwm_example.c:175:6: warning: variable 'WaitCount' set but not used [-Wunused-but-set-variable]
+  u64 WaitCount;
+      ^~~~~~~~~
+Finished building: ../src/xtmrctr_pwm_example.c
+ 
+Building target: hw_bsp_xtmrctr_pwm_example_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw_bsp/ps7_cortexa9_0/lib -o "hw_bsp_xtmrctr_pwm_example_1.elf" ./src/xtmrctr_pwm_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hw_bsp_xtmrctr_pwm_example_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size hw_bsp_xtmrctr_pwm_example_1.elf  |tee "hw_bsp_xtmrctr_pwm_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  37912	   2336	  23336	  63584	   f860	hw_bsp_xtmrctr_pwm_example_1.elf
+Finished building: hw_bsp_xtmrctr_pwm_example_1.elf.size
+ 
+01:02:12 **** Incremental Build of configuration Debug for project hw_bsp_xtmrctr_pwm_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+01:16:42 **** Incremental Build of configuration Debug for project hw_bsp_xtmrctr_pwm_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.

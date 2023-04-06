@@ -406,9 +406,9 @@ setBuzzerPWM(int rawData){
 	do{
 		XTmrCtr_PwmDisable(&TimerCounterInst);
 
-		Period = 65535 - rawData;
-		HighTime = PWM_PERIOD / Div--;
-		DutyCycle = 50;
+		Period = (u32)(65535 - rawData);
+		HighTime = (u64)(Period / Div--);
+		DutyCycle = (u8)(50);
 		XTmrCtr_PwmConfigure(&TimerCounterInst, Period, HighTime);
 
 		xil_printf("PWM Configured for Duty Cycle = %d\r\n", DutyCycle);
