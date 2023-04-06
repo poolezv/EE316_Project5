@@ -6641,3 +6641,195 @@ make pre-build main-build
 a9-linaro-pre-build-step
  
 make: Nothing to be done for 'main-build'.
+02:10:30 **** Auto Build of configuration Debug for project hw ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/Main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.c"
+../src/Main.c:354:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ setMotorPWM(int rawData){
+ ^~~~~~~~~~~
+../src/Main.c:354:1: warning: conflicting types for 'setMotorPWM'
+../src/Main.c:58:6: note: previous declaration of 'setMotorPWM' was here
+ void setMotorPWM(int rawData);
+      ^~~~~~~~~~~
+../src/Main.c: In function 'setMotorPWM':
+../src/Main.c:391:9: warning: 'return' with a value, in function returning void
+  return 0;
+         ^
+../src/Main.c:354:1: note: declared here
+ setMotorPWM(int rawData){
+ ^~~~~~~~~~~
+../src/Main.c:362:8: warning: unused variable 'DutyCyclef' [-Wunused-variable]
+  float DutyCyclef;
+        ^~~~~~~~~~
+../src/Main.c:361:6: warning: variable 'WaitCount' set but not used [-Wunused-but-set-variable]
+  u64 WaitCount;
+      ^~~~~~~~~
+../src/Main.c:360:6: warning: variable 'HighTime' set but not used [-Wunused-but-set-variable]
+  u32 HighTime;
+      ^~~~~~~~
+../src/Main.c:359:6: warning: variable 'Period' set but not used [-Wunused-but-set-variable]
+  u32 Period;
+      ^~~~~~
+../src/Main.c: At top level:
+../src/Main.c:395:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ setBuzzerPWM(int rawData){
+ ^~~~~~~~~~~~
+../src/Main.c:395:1: warning: conflicting types for 'setBuzzerPWM'
+../src/Main.c:59:6: note: previous declaration of 'setBuzzerPWM' was here
+ void setBuzzerPWM(int rawData);
+      ^~~~~~~~~~~~
+../src/Main.c: In function 'setBuzzerPWM':
+../src/Main.c:402:6: warning: variable 'WaitCount' set but not used [-Wunused-but-set-variable]
+  u64 WaitCount;
+      ^~~~~~~~~
+At top level:
+../src/Main.c:341:13: warning: 'TimerCounterHandler' defined but not used [-Wunused-function]
+ static void TimerCounterHandler(void *CallBackRef, u8 TmrCtrNumber)
+             ^~~~~~~~~~~~~~~~~~~
+../src/Main.c:331:6: warning: 'TmrCtrDisableIntr' defined but not used [-Wunused-function]
+ void TmrCtrDisableIntr(INTC *IntcInstancePtr, u16 IntrId)
+      ^~~~~~~~~~~~~~~~~
+../src/Main.c:239:12: warning: 'TmrCtrSetupIntrSystem' defined but not used [-Wunused-function]
+ static int TmrCtrSetupIntrSystem(INTC *IntcInstancePtr,
+            ^~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/Main.c
+ 
+Building target: hw.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw_bsp/ps7_cortexa9_0/lib -o "hw.elf" ./src/Main.o ./src/PWM_generator.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+/tools/Xilinx/SDK/2019.1/gnu/aarch32/lin/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld: ./src/PWM_generator.o: in function `main':
+/home/zanpoole/School/EE316/Interrupt/Interrupt.sdk/hw/Debug/../src/PWM_generator.c:44: multiple definition of `main'; ./src/Main.o:/home/zanpoole/School/EE316/Interrupt/Interrupt.sdk/hw/Debug/../src/Main.c:76: first defined here
+collect2: error: ld returned 1 exit status
+make: *** [makefile:41: hw.elf] Error 1
+02:43:28 **** Auto Build of configuration Debug for project hw ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/Main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.c"
+../src/Main.c:354:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ setMotorPWM(int rawData){
+ ^~~~~~~~~~~
+../src/Main.c:354:1: warning: conflicting types for 'setMotorPWM'
+../src/Main.c:58:6: note: previous declaration of 'setMotorPWM' was here
+ void setMotorPWM(int rawData);
+      ^~~~~~~~~~~
+../src/Main.c: In function 'setMotorPWM':
+../src/Main.c:391:9: warning: 'return' with a value, in function returning void
+  return 0;
+         ^
+../src/Main.c:354:1: note: declared here
+ setMotorPWM(int rawData){
+ ^~~~~~~~~~~
+../src/Main.c:362:8: warning: unused variable 'DutyCyclef' [-Wunused-variable]
+  float DutyCyclef;
+        ^~~~~~~~~~
+../src/Main.c:361:6: warning: variable 'WaitCount' set but not used [-Wunused-but-set-variable]
+  u64 WaitCount;
+      ^~~~~~~~~
+../src/Main.c:360:6: warning: variable 'HighTime' set but not used [-Wunused-but-set-variable]
+  u32 HighTime;
+      ^~~~~~~~
+../src/Main.c:359:6: warning: variable 'Period' set but not used [-Wunused-but-set-variable]
+  u32 Period;
+      ^~~~~~
+../src/Main.c: At top level:
+../src/Main.c:395:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ setBuzzerPWM(int rawData){
+ ^~~~~~~~~~~~
+../src/Main.c:395:1: warning: conflicting types for 'setBuzzerPWM'
+../src/Main.c:59:6: note: previous declaration of 'setBuzzerPWM' was here
+ void setBuzzerPWM(int rawData);
+      ^~~~~~~~~~~~
+../src/Main.c: In function 'setBuzzerPWM':
+../src/Main.c:402:6: warning: variable 'WaitCount' set but not used [-Wunused-but-set-variable]
+  u64 WaitCount;
+      ^~~~~~~~~
+At top level:
+../src/Main.c:341:13: warning: 'TimerCounterHandler' defined but not used [-Wunused-function]
+ static void TimerCounterHandler(void *CallBackRef, u8 TmrCtrNumber)
+             ^~~~~~~~~~~~~~~~~~~
+../src/Main.c:331:6: warning: 'TmrCtrDisableIntr' defined but not used [-Wunused-function]
+ void TmrCtrDisableIntr(INTC *IntcInstancePtr, u16 IntrId)
+      ^~~~~~~~~~~~~~~~~
+../src/Main.c:239:12: warning: 'TmrCtrSetupIntrSystem' defined but not used [-Wunused-function]
+ static int TmrCtrSetupIntrSystem(INTC *IntcInstancePtr,
+            ^~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/Main.c
+ 
+Building target: hw.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw_bsp/ps7_cortexa9_0/lib -o "hw.elf" ./src/Main.o ./src/PWM_generator.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+/tools/Xilinx/SDK/2019.1/gnu/aarch32/lin/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld: ./src/PWM_generator.o: in function `main':
+/home/zanpoole/School/EE316/Interrupt/Interrupt.sdk/hw/Debug/../src/PWM_generator.c:44: multiple definition of `main'; ./src/Main.o:/home/zanpoole/School/EE316/Interrupt/Interrupt.sdk/hw/Debug/../src/Main.c:76: first defined here
+collect2: error: ld returned 1 exit status
+make: *** [makefile:41: hw.elf] Error 1
+04:18:45 **** Auto Build of configuration Debug for project hw ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/Main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.c"
+../src/Main.c:354:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ setMotorPWM(int rawData){
+ ^~~~~~~~~~~
+../src/Main.c:354:1: warning: conflicting types for 'setMotorPWM'
+../src/Main.c:58:6: note: previous declaration of 'setMotorPWM' was here
+ void setMotorPWM(int rawData);
+      ^~~~~~~~~~~
+../src/Main.c: In function 'setMotorPWM':
+../src/Main.c:391:9: warning: 'return' with a value, in function returning void
+  return 0;
+         ^
+../src/Main.c:354:1: note: declared here
+ setMotorPWM(int rawData){
+ ^~~~~~~~~~~
+../src/Main.c:362:8: warning: unused variable 'DutyCyclef' [-Wunused-variable]
+  float DutyCyclef;
+        ^~~~~~~~~~
+../src/Main.c:361:6: warning: variable 'WaitCount' set but not used [-Wunused-but-set-variable]
+  u64 WaitCount;
+      ^~~~~~~~~
+../src/Main.c:360:6: warning: variable 'HighTime' set but not used [-Wunused-but-set-variable]
+  u32 HighTime;
+      ^~~~~~~~
+../src/Main.c:359:6: warning: variable 'Period' set but not used [-Wunused-but-set-variable]
+  u32 Period;
+      ^~~~~~
+../src/Main.c: At top level:
+../src/Main.c:395:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ setBuzzerPWM(int rawData){
+ ^~~~~~~~~~~~
+../src/Main.c:395:1: warning: conflicting types for 'setBuzzerPWM'
+../src/Main.c:59:6: note: previous declaration of 'setBuzzerPWM' was here
+ void setBuzzerPWM(int rawData);
+      ^~~~~~~~~~~~
+../src/Main.c: In function 'setBuzzerPWM':
+../src/Main.c:402:6: warning: variable 'WaitCount' set but not used [-Wunused-but-set-variable]
+  u64 WaitCount;
+      ^~~~~~~~~
+At top level:
+../src/Main.c:341:13: warning: 'TimerCounterHandler' defined but not used [-Wunused-function]
+ static void TimerCounterHandler(void *CallBackRef, u8 TmrCtrNumber)
+             ^~~~~~~~~~~~~~~~~~~
+../src/Main.c:331:6: warning: 'TmrCtrDisableIntr' defined but not used [-Wunused-function]
+ void TmrCtrDisableIntr(INTC *IntcInstancePtr, u16 IntrId)
+      ^~~~~~~~~~~~~~~~~
+../src/Main.c:239:12: warning: 'TmrCtrSetupIntrSystem' defined but not used [-Wunused-function]
+ static int TmrCtrSetupIntrSystem(INTC *IntcInstancePtr,
+            ^~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/Main.c
+ 
+Building target: hw.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw_bsp/ps7_cortexa9_0/lib -o "hw.elf" ./src/Main.o ./src/PWM_generator.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+/tools/Xilinx/SDK/2019.1/gnu/aarch32/lin/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld: ./src/PWM_generator.o: in function `main':
+/home/zanpoole/School/EE316/Interrupt/Interrupt.sdk/hw/Debug/../src/PWM_generator.c:44: multiple definition of `main'; ./src/Main.o:/home/zanpoole/School/EE316/Interrupt/Interrupt.sdk/hw/Debug/../src/Main.c:76: first defined here
+collect2: error: ld returned 1 exit status
+make: *** [makefile:41: hw.elf] Error 1

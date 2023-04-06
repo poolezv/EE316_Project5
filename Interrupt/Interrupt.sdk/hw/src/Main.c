@@ -79,7 +79,8 @@ int main()
 	// HERE
 	// Enable Interrupt
 	printf("Initializing Timer\n");
-	XTmrCtr_Initialize(&InterruptController, TMRCTR_DEVICE_ID);
+	XTmrCtr_Initialize(&TimerCounterInst, TMRCTR_DEVICE_ID);
+
 
 //	printf("Initializing ");
 //	TmrCtrSetupIntrSystem(&Intc, &TimerCounterInst0, TMRCTR_DEVICE_ID, TMRCTR_INTERRUPT_ID);
@@ -362,8 +363,8 @@ setMotorPWM(int rawData){
 
 	Div = DUTYCYCLE_DIVISOR;
 
-	do{
-		XTmrCtr_PwmDisable(&TimerCounterInst);
+	//do{
+		XTmrCtr_PwmDisable(&TimerCounterInst1);
 
 		Period = PWM_PERIOD;
 		HighTime = PWM_PERIOD / Div--;
@@ -373,19 +374,19 @@ setMotorPWM(int rawData){
 		xil_printf("PWM Configured for Duty Cycle = %d\r\n", DutyCycle);
 
 		/* Enable PWM */
-		XTmrCtr_PwmEnable(&TimerCounterInst);
+		XTmrCtr_PwmEnable(&TimerCounterInst1);
 
 		NoOfCycles = 0;
 		WaitCount = WAIT_COUNT;
 		while (NoOfCycles < CYCLE_PER_DUTYCYCLE) {
-			if (PeriodTimerHit == TRUE && HighTimerHit == TRUE) {
+			//if (PeriodTimerHit == TRUE && HighTimerHit == TRUE) {
 				PeriodTimerHit = FALSE;
 				HighTimerHit = FALSE;
 				WaitCount = WAIT_COUNT;
 				NoOfCycles++;
-			}
+			//}
 		}
-	} while(DutyCycle < MAX_DUTYCYCLE);
+	//} while(DutyCycle < MAX_DUTYCYCLE);
 
 	return 0;
 
@@ -403,7 +404,7 @@ setBuzzerPWM(int rawData){
 
 	Div = DUTYCYCLE_DIVISOR;
 
-	do{
+//	do{
 		XTmrCtr_PwmDisable(&TimerCounterInst);
 
 		Period = (u32)(65535 - rawData);
@@ -426,7 +427,7 @@ setBuzzerPWM(int rawData){
 				NoOfCycles++;
 			}
 		}
-	} while(DutyCycle < MAX_DUTYCYCLE);
+//	} while(DutyCycle < MAX_DUTYCYCLE);
 
 	return;
 
